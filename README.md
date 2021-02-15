@@ -1,51 +1,14 @@
 # PILOS-Docs
 
-- [User](##User)
-- [Administrator](##Administrator)
-
-## Nutzer
-
-### Home
-![Home screen](screenshots/user/home.png)
-
-Wenn man auf seinen Namen rechts oben clickt, kann man sein Profil bearbeiten oder abmelden.
-
-#### Meine Räume
-Unter "Meine Räume" werden vom Nutzer erstellte Räume angezeigt.
-
-#### Mit mit geteilte Räume
-Hier werden alle Räume angezeigt, zu den der Nutzer eingeladen wurde.
-
-### Meetings
-Wenn man auf einen geteilten Raum clickt, kommt man in einen "Wartebereich", wenn der Raum noch nicht vom Besitzer gestartet wurde.
-
-![Benutzer meeting wartet](screenshots/user/meeting_pending.png)
-
-Wenn der Raum schon gestartet ist, darf man sofort daran teilnehmen.
-
-![Benutzer meeting bereit](screenshots/user/meeting_ready.png)
+## Einem Raum beitreten
 
 
-Ein vom Nutzer erstellter Raum sieht so aus.
 
-![Benutzer meeting besitzer](screenshots/user/meeting_owner.png)
+## Einen Raum erstellen
 
-Hier kann man den Raum einstellen oder Mitglieder und Dateien verwalten.
+## Profil bearbeiten
 
-![Benutzer meeting besitzer Einstellungen](screenshots/user/meeting_owner_settings.png)
-
-
-#### Sicherheit
-Der Zugangscode wird für den Eintritt in den öffentlichen Raum benötigt. Wenn man jedoch schon Mitglied des Raumes ist, ist der Code nicht nötig.
-
-#### Teilnehmer
-In der "Teilnehmer" Sektion kann man die maximale Anzahl an Teilnehmer festlegen, Standardrolle einstellen und Warteraum ein- oder ausschalten.
-
-
-#### Einschränkungen
-Hier kann man bestimmte Funktionen ausschalten, wie z.B. Öffentlicher Chat, Mikrofon oder Webcam.
-
-## Administrator
+## PILOS einstellen
 
 Administrator hat Zugriff auf Einstellungen von PILOS.
 
@@ -65,31 +28,21 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 
 4. Anzahl der Räume pro Benutzer definiert die Standardanzahl der Räume die ein Benutzer erstellen darf. Diese Einstellung wird von Gruppeneinstellungen überschrieben und wird nur dann verwendet, wenn die Gruppeneinstellung nicht vorhanden ist.
 
+5. Maximale Anzahl der Räumen auf einer Seite.
+
+6. Maximale
+
 ### Benutzer
 ![Administrator Benutzer Einstellungen](screenshots/administrator/users.png)
-![Administrator Benutzer hinzufügen](screenshots/administrator/add_user.png)
 
-### Rollen
-![Administrator Rollen Einstellungen](screenshots/administrator/roles.png)
-![Administrator Rolle hinzufügen](screenshots/administrator/add_role.png)
+1. Neuen benutzer hinzufügen
 
-### Raumarten
-![Administrator Raumarten Einstellungen](screenshots/administrator/room_types.png)
-![Administrator neue Raumart erstellen](screenshots/administrator/add_room_type.png)
+2. Detailierte Informationen zum Benutzer
 
-### Server
-![Administrator Server Einstellungen](screenshots/administrator/server.png)
-![Administrator neuen Server hinzufügen](screenshots/administrator/add_server.png)
+3. Benutzer bearbeiten
 
-### Serverpools
-![Administrator Serverpools Einstellungen](screenshots/administrator/server_pools.png)
-![Administrator neuen Serverpool hinzufügen](screenshots/administrator/add_server_pool.png)
+4. Benutzer löschen
 
-## Räume
-In diesem Abschnitt wird die Benutzeroberfläche vom Raum aus der Sichten des Benutzers und des Moderators beschrieben.
 
-### Benutzer
-
-### Moderator
 
 
