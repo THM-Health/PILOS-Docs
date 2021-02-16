@@ -3,17 +3,39 @@
 ## Einem Raum beitreten
 1. Einen geteilten Raum auswählen.
 
-![Raum auswählen](screenshots/user/enter_room_1.png)
+![Raum auswählen](screenshots/user/enter_room/1.png)
 
-2. Warten, bis der Raum gestartet wird
+2. Warten, wenn der Raum noch nicht gestartet wurde.
 
-![Auf Start warten](screenshots/user/enter_room_2.png)
+![Auf Start warten](screenshots/user/enter_room/2.png)
 
-3. Auf "Teilnehmen" clicken
+3. Auf "Teilnehmen" clicken.
 
-![Teilnehmen clicken](screenshots/user/enter_room_3.png)
+![Teilnehmen clicken](screenshots/user/enter_room/3.png)
 
 ## Einen Raum erstellen
+
+1. Auf "Neuen Raum Erstellen" clicken.
+
+![Raum erstellen clicken](screenshots/administrator/create_room/1.png)
+
+2. Raumart auswählen und den Namen vergeben.
+
+![Raum auswählen und Namen vergeben](screenshots/administrator/create_room/2.png)
+
+3. Teilnehmer einladen.
+
+![Teilnehmer einladen](screenshots/administrator/create_room/3.png)
+
+4. Raum einstellen.
+
+![Raum Einstellenungen](screenshots/administrator/create_room/4.png)
+
+Der Zugangscode wird für Gäste benötigt, falls diese zugelassen sind.
+
+5. Auf "Starten" clicken.
+
+![Starten clicken](screenshots/administrator/create_room/5.png)
 
 ## Profil bearbeiten
 
