@@ -1,0 +1,6 @@
+- name: Benutzer
+  link: /user/
+- name: Administratoren
+  link: /admin/
+- name: Blog
+  link: /blog/
