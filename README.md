@@ -1,8 +1,17 @@
 # PILOS-Docs
 
 ## Einem Raum beitreten
+1. Einen geteilten Raum auswählen.
 
+![Raum auswählen](screenshots/user/enter_room_1.png)
 
+2. Warten, bis der Raum gestartet wird
+
+![Auf Start warten](screenshots/user/enter_room_2.png)
+
+3. Auf "Teilnehmen" clicken
+
+![Teilnehmen clicken](screenshots/user/enter_room_3.png)
 
 ## Einen Raum erstellen
 
@@ -18,19 +27,17 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 ### Anwendung
 ![Administrator Anwendung Einstellungen](screenshots/administrator/app.png)
 
-1. Name der Anwendung wird oben im Browsertab angezeigt
+1. Name der Anwendungangezeigt
 
-2. Favicon ist ein Icon, der oben im Browsertab angezeigt wird. 
+2. Favicon
 
-3. Logo wird oben links im Header angezeigt. 
+3. Logo. 
 
 ![Administrator Anwendung Einstellungen](screenshots/administrator/app_settings_show.png)
 
 4. Anzahl der Räume pro Benutzer definiert die Standardanzahl der Räume die ein Benutzer erstellen darf. Diese Einstellung wird von Gruppeneinstellungen überschrieben und wird nur dann verwendet, wenn die Gruppeneinstellung nicht vorhanden ist.
 
-5. Maximale Anzahl der Räumen auf einer Seite.
 
-6. Maximale
 
 ### Benutzer
 ![Administrator Benutzer Einstellungen](screenshots/administrator/users.png)
