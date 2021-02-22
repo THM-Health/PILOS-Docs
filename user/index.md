@@ -3,7 +3,7 @@
 ## Einem Raum beitreten
 1. Einen geteilten Raum auswählen.
 
-![Raum auswählen](/assets/img/screenshots/user/enter_room/1.png)
+![Raum auswählen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/1.png)
 
 2. Warten, wenn der Raum noch nicht gestartet wurde.
 
