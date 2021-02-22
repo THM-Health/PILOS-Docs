@@ -1,66 +1,43 @@
----
-title: Page with menubar
----
+# PILOS-Docs
 
-User
-This is another sample page showing how a page can look with a menubar.
+## Einem Raum beitreten
+1. Einen geteilten Raum auswählen.
 
-## Displaying a menubar
+![Raum auswählen](screenshots/user/enter_room/1.png)
 
-The menubar gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the frontmatter.
+2. Warten, wenn der Raum noch nicht gestartet wurde.
 
-```yml
-title: Page with menubar
-subtitle: Demo page with a menubar
-layout: page
-show_sidebar: false
-menubar: example_menu
-```
+![Auf Start warten](screenshots/user/enter_room/2.png)
 
-You will probably want to disable the show_sidebar otherwise there will be little room for the page's content.
+3. Auf "Teilnehmen" clicken.
 
-## Creating a menubar data file
+![Teilnehmen clicken](screenshots/user/enter_room/3.png)
 
-Create a data file in the _data directory and use the following format (if using yml)
+## Einen Raum erstellen
 
-```yml
-- label: Example Menu
-  items:
-    - name: Home
-      link: /
-    - name: Pages
-      link: #
-      items:
-        - name: Page With Sidebar
-          link: /page-1/
-        - name: Page Without Sidebar
-          link: /page-2/
-        - name: Page With Menubar
-          link: /page-3/
-    - name: Blog
-      link: /blog/
-```
+1. Auf "Neuen Raum Erstellen" clicken.
 
-### Multiple menus
+![Raum erstellen clicken](screenshots/administrator/create_room/1.png)
 
-You may make multiple menus in the same file, separated by the label
+2. Raumart auswählen und den Namen vergeben.
 
-```yml
-- label: Menu Label
-  items:
-    - name: Example item
-      link: /example-item/
-- label: Second Menu Label
-  items:
-    - name: Parent Item
-      link: /parent-item/
-      items:
-        - name: Sublink
-          link: /sublink/
-        - name: Sublink 2
-          link: /sublink2/
-- label: Third Menu Label
-  items:
-    - name: Another example item
-      link: /another-example-item/
-```
+![Raum auswählen und Namen vergeben](screenshots/administrator/create_room/2.png)
+
+3. Teilnehmer einladen.
+
+![Teilnehmer einladen](screenshots/administrator/create_room/3.png)
+
+4. Raum einstellen.
+
+![Raum Einstellenungen](screenshots/administrator/create_room/4.png)
+
+Der Zugangscode wird für Gäste benötigt, falls diese zugelassen sind.
+
+5. Auf "Starten" clicken.
+
+![Starten clicken](screenshots/administrator/create_room/5.png)
+
+## Profil bearbeiten
+
+
+
