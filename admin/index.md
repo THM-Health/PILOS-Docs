@@ -1,5 +1,5 @@
 ---
-title: Docs-Administratoren
+title: PILOS Docs | Administratoren
 ---
 
 ## PILOS einstellen

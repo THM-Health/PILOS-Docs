@@ -1,5 +1,5 @@
 ---
-title: Docs-Benutzer
+title: PILOS Docs | Benutzer
 ---
 
 ## Einem Raum beitreten
