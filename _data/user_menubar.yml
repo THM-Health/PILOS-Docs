@@ -1,7 +1,7 @@
 - label: Benutzer
   items:
     - name: Raum beitreten
-      link: #einem-raum-beitreten
+      link: id:einem-raum-beitreten
     - name: Pages
       link: #
       items:
