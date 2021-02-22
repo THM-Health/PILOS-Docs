@@ -1,15 +1,9 @@
 - label: Administratoren
   items:
-    - name: Home
-      link: /
-    - name: Pages
-      link: #
+    - name: PILOS einstellen
+      link: id:pilos-einstellen
       items:
-        - name: Page With Sidebar
-          link: /page-1/
-        - name: Page Without Sidebar
-          link: /page-2/
-        - name: Page With Menubar
-          link: /page-3/
-    - name: Blog
-      link: /blog/
+        - name: Anwendung
+          link: id:anwendung
+        - name: Benutzer
+          link: id:benutzer
