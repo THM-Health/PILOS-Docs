@@ -12,7 +12,7 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 ### Anwendung
 ![Administrator Anwendung Einstellungen]({{ site.baseurl }}/assets/img/screenshots/administrator/app.png)
 
-1. Name der Anwendungangezeigt
+1. Name der Anwendungang
 
 2. Favicon
 
