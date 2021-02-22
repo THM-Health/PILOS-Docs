@@ -3,39 +3,39 @@
 ## Einem Raum beitreten
 1. Einen geteilten Raum auswählen.
 
-![Raum auswählen](screenshots/user/enter_room/1.png)
+![Raum auswählen](/assets/img/screenshots/user/enter_room/1.png)
 
 2. Warten, wenn der Raum noch nicht gestartet wurde.
 
-![Auf Start warten](screenshots/user/enter_room/2.png)
+![Auf Start warten](/assets/img/screenshots/user/enter_room/2.png)
 
 3. Auf "Teilnehmen" clicken.
 
-![Teilnehmen clicken](screenshots/user/enter_room/3.png)
+![Teilnehmen clicken](/assets/img/screenshots/user/enter_room/3.png)
 
 ## Einen Raum erstellen
 
 1. Auf "Neuen Raum Erstellen" clicken.
 
-![Raum erstellen clicken](screenshots/administrator/create_room/1.png)
+![Raum erstellen clicken](/assets/img/screenshots/administrator/create_room/1.png)
 
 2. Raumart auswählen und den Namen vergeben.
 
-![Raum auswählen und Namen vergeben](screenshots/administrator/create_room/2.png)
+![Raum auswählen und Namen vergeben](/assets/img/screenshots/administrator/create_room/2.png)
 
 3. Teilnehmer einladen.
 
-![Teilnehmer einladen](screenshots/administrator/create_room/3.png)
+![Teilnehmer einladen](/assets/img/screenshots/administrator/create_room/3.png)
 
 4. Raum einstellen.
 
-![Raum Einstellenungen](screenshots/administrator/create_room/4.png)
+![Raum Einstellenungen](/assets/img/screenshots/administrator/create_room/4.png)
 
 Der Zugangscode wird für Gäste benötigt, falls diese zugelassen sind.
 
 5. Auf "Starten" clicken.
 
-![Starten clicken](screenshots/administrator/create_room/5.png)
+![Starten clicken](/assets/img/screenshots/administrator/create_room/5.png)
 
 ## Profil bearbeiten
 
