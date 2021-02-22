@@ -7,35 +7,35 @@
 
 2. Warten, wenn der Raum noch nicht gestartet wurde.
 
-![Auf Start warten](/assets/img/screenshots/user/enter_room/2.png)
+![Auf Start warten]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/2.png)
 
 3. Auf "Teilnehmen" clicken.
 
-![Teilnehmen clicken](/assets/img/screenshots/user/enter_room/3.png)
+![Teilnehmen clicken]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/3.png)
 
 ## Einen Raum erstellen
 
 1. Auf "Neuen Raum Erstellen" clicken.
 
-![Raum erstellen clicken](/assets/img/screenshots/administrator/create_room/1.png)
+![Raum erstellen clicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/1.png)
 
 2. Raumart auswählen und den Namen vergeben.
 
-![Raum auswählen und Namen vergeben](/assets/img/screenshots/administrator/create_room/2.png)
+![Raum auswählen und Namen vergeben]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/2.png)
 
 3. Teilnehmer einladen.
 
-![Teilnehmer einladen](/assets/img/screenshots/administrator/create_room/3.png)
+![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/3.png)
 
 4. Raum einstellen.
 
-![Raum Einstellenungen](/assets/img/screenshots/administrator/create_room/4.png)
+![Raum Einstellenungen]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/4.png)
 
 Der Zugangscode wird für Gäste benötigt, falls diese zugelassen sind.
 
 5. Auf "Starten" clicken.
 
-![Starten clicken](/assets/img/screenshots/administrator/create_room/5.png)
+![Starten clicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/5.png)
 
 ## Profil bearbeiten
 
