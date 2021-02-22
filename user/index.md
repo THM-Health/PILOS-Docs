@@ -1,4 +1,6 @@
-# PILOS-Docs
+---
+title: Docs-Benutzer
+---
 
 ## Einem Raum beitreten
 1. Einen geteilten Raum auswählen.
