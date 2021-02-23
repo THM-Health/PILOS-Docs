@@ -22,6 +22,8 @@ title: PILOS Docs | Benutzer
 * Sie sind nicht berechtigt, Räume zu erstellen
 " %}
 
+<div class="m-6"></div>
+
 1. Auf "Neuen Raum erstellen" klicken.
 
    ![Raum erstellen klicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/1.png)
