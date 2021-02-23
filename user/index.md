@@ -17,6 +17,11 @@ title: PILOS Docs | Benutzer
 
 ## Einen Raum erstellen
 
+{% include notification.html message="Es kann sein, dass Sie keinen Raum erstellen können. Mögliche Gründe dafür sind:
+* Sie haben die maximale Anzahl an Räumen erreicht.
+* Sie sind nicht berechtigt, Räume zu erstellen
+" %}
+
 1. Auf "Neuen Raum erstellen" klicken.
 
    ![Raum erstellen klicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/1.png)
@@ -35,7 +40,14 @@ title: PILOS Docs | Benutzer
 
 Der Zugangscode wird für Gäste benötigt und Nutzer die keine Mitglieder des Raumes sind.
 
-<a class="button is-primary" href="#">Mehr lesen</a>
+{% include notification.html message="Begrenzung der maximaler Teilnehmeranzahl funktioniert noch nicht richtig" %}
+
+<div class="m-6"></div>
+
+<div class="columns is-centered">
+    <a class="button is-primary" href="#">Mehr lesen</a>
+</div>
+
 
 5. Auf "Starten" klicken.
 
