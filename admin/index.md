@@ -12,11 +12,11 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 ### Anwendung
 ![Administrator Anwendung Einstellungen]({{ site.baseurl }}/assets/img/screenshots/administrator/app.png)
 
-1. Name der Anwendungang
+1. Name der Anwendung
 
 2. Favicon
 
-3. Logo. 
+3. Logo 
 
 4. Anzahl der Räume pro Benutzer definiert die Standardanzahl der Räume die ein Benutzer erstellen darf. Diese Einstellung wird von Gruppeneinstellungen überschrieben und wird nur dann verwendet, wenn die Gruppeneinstellung nicht vorhanden ist.
 
@@ -25,7 +25,7 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 ### Benutzer
 ![Administrator Benutzer Einstellungen]({{ site.baseurl }}/assets/img/screenshots/administrator/users.png)
 
-1. Neuen benutzer hinzufügen
+1. Neuen Benutzer hinzufügen
 
 2. Detailierte Informationen zum Benutzer
 
