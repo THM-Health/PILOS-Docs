@@ -5,8 +5,39 @@ title: PILOS Docs | Administratoren
 ## PILOS einstellen
 
 Administrator hat Zugriff auf Einstellungen von PILOS.
-
-![Administrator Einstellungen]({{ site.baseurl }}/assets/img/screenshots/administrator/settings.png)
+<div class="columns is-multiline is-8">
+    <div class="column is-one-third">
+        <a href="#anwendung">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_app.png"/>
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="#benutzer">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_user.png"/>
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="#rollen">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_roles.png"/>
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="#raumarten">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_room_types.png"/>
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="#server">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_server.png"/>
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="#serverpools">
+            <img src="{{ site.baseurl }}/assets/img/screenshots/administrator/settings/settings_server_pools.png"/>
+        </a>
+    </div>    
+</div>
+Klicke auf die Einstellung, um mehr Infos zu bekommen
 
 
 ### Anwendung
@@ -32,3 +63,14 @@ Administrator hat Zugriff auf Einstellungen von PILOS.
 3. Benutzer bearbeiten
 
 4. Benutzer löschen
+
+### Rollen
+
+
+### Raumarten
+
+
+### Server
+
+
+### Serverpools 
