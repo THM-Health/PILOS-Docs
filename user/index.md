@@ -32,6 +32,10 @@ title: PILOS Docs | Benutzer
 
    ![Raum auswählen und Namen vergeben]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/2.png)
 
+<div class="columns is-centered">
+    <a class="button is-primary" href="#">Mehr über Raumarten lesen</a>
+</div>
+
 3. Teilnehmer einladen.
 
    ![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/3.png)
@@ -47,7 +51,7 @@ Der Zugangscode wird für Gäste benötigt und Nutzer die keine Mitglieder des R
 <div class="m-6"></div>
 
 <div class="columns is-centered">
-    <a class="button is-primary" href="#">Mehr lesen</a>
+    <a class="button is-primary" href="#">Mehr über Raumeinstellungen lesen</a>
 </div>
 
 
