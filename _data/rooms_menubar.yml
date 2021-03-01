@@ -1,0 +1,4 @@
+- label: Räume
+  items:
+    - name: Chat
+      link: id:chat

@@ -63,23 +63,24 @@ paginate_path: "/blog/page:num"
 defaults:
   -
     scope:
-      path: "user"
+      path: ""
       type: "pages"
     values:
       show_sidebar: false
       hide_hero: true
+      layout: page
       menubar: user_menubar
   -
     scope:
-      path: "admin"
-      type: "pages"
+      path: "/blog/"
+      type: "blog"
     values:
-      show_sidebar: false
-      hide_hero: true
-      menubar: admin_menubar
+      author: "PILOS Team"
+      layout: post
+      show_sidebar: true
   -
     scope:
-      path: ""
+      path: "/pilos/"
       type: "blog"
     values:
       author: "PILOS Team"

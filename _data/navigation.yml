@@ -2,6 +2,8 @@
   link: /user/
 - name: Administratoren
   link: /admin/
+- name: Räume
+  link: /rooms/
 - name: Blog
   link: /blog/
 - name: Fortgeschritten
