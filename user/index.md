@@ -3,6 +3,31 @@ title: PILOS Docs | Benutzer
 ---
 
 ## Einem Raum beitreten
+
+- <a href="#link">Über einen Link</a>
+- <a href="#geteilter-raum">Über einen geteilten Raum</a>
+
+
+### Link
+1. Den Link in die Adresszeile einfügen
+
+   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_1.png)
+
+2. Einloggen, wenn nötig
+
+   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_2.png)
+
+3. Den Zugangscode, wenn vorhanden, eintippen.
+
+   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_3.png)
+
+{% include notification.html message="Ob du dich einloggen oder den Zugangscode eintippen muss, hängt von den Raumeinstellungen ab" %}
+
+
+   
+
+
+### Geteilter Raum
 1. Einen geteilten Raum auswählen.
 
    ![Raum auswählen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/1.png)
