@@ -4,3 +4,10 @@
   link: /admin/
 - name: Blog
   link: /blog/
+- name: Fortgeschritten
+  link: /#
+  dropdown:
+    - name: Raumarten
+      link: /advanced/room-types/
+    - name: Raumeinstellungen
+      link: /advanced/room-settings/
