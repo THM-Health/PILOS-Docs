@@ -66,10 +66,37 @@ Im erschienen Fenster können Sie eine aus Ihnen verfügbaren Fenstern auswähle
 
 ### Emojis
 
+Sie können mit Emojis auf Ereignisse im Raum reagieren.
+
+Dafür klicken Sie auf sich selbst links in der Teilnehmerliste und wählen Sie "Status setzen"
+
+![Status setzen]({{ site.baseurl }}/assets/img/screenshots/rooms/emoji_set.png)
+
+<div class="notification is-primary">
+  <strong>Shortcut Tipp:</strong> <br/>
+  Teilnehmerliste kann auch mit <span class="tag is-warning is-medium">Alt+U</span> geöffnet oder geschlossen werden.
+</div>
+
+Dann können Sie eine der verfügbaren Emojis auswählen.
+
+![Emoji auswählen]({{ site.baseurl }}/assets/img/screenshots/rooms/emoji_choose.png)
 
 ### Geteilte Notizen
 
+Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen. Um die zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhald der Teilnehmerliste.
 
+![Geteilte Notizen]({{ site.baseurl }}/assets/img/screenshots/rooms/shared_notes.png)
+
+
+Diese Notizen können Sie dann herunterladen. Klicken Sie dafür auf "Download" Icon rechts oben im Fenster "Geteilte Notizen". 
+
+![Geteilte herunterladen]({{ site.baseurl }}/assets/img/screenshots/rooms/shared_notes_download.png)
+
+Dann wählen Sie ein beliebiges Format.
+
+![Geteilte herunterladen]({{ site.baseurl }}/assets/img/screenshots/rooms/shared_notes_choose_format.png)
+
+Und der Download wird gestartet.
 
 ## Moderator
 
