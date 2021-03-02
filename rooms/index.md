@@ -34,10 +34,35 @@ Wenn Sie der Konferenz mit einem Mikrofon beigetreten sind, können Sie den Mikr
 </div>
 
 ### Chat
+<div class="notification is-primary">
+  <strong>Shortcut Tipp:</strong> <br/>
+  Sie können die Nachricht auch mit <span class="tag is-warning is-medium">Eing.</span>  senden.
+</div>
+
+Mit dem Klick rechts oben auf 
+
+![Chat erweiterte Optionen]({{ site.baseurl }}/assets/img/screenshots/rooms/settings_icon_chat.png) 
+
+kann man
+den Chatverlauf speichern oder kopieren.
+
+![Chat speichern oder kopieren]({{ site.baseurl }}/assets/img/screenshots/rooms/chat_copy_or_save.png) 
 
 
 ### Webcam
+Klicken Sie auf
 
+![Webcam freigeben button]({{ site.baseurl }}/assets/img/screenshots/rooms/webcam_turn_on.png)
+
+um die Webcam freizugeben.
+
+Im erschienen Fenster können Sie eine aus Ihnen verfügbaren Fenstern auswählen und die Qualität der Videoübertraung einstellen.
+
+![Webcam einstellen]({{ site.baseurl }}/assets/img/screenshots/rooms/webcam_settings.png)
+
+<div class="notification is-info">
+  Wenn Sie nur über eine geringe Bandbreite verfügen, wählen Sie lieber schlechtere Qualität, sonst kann es zu Problemen mit Audio- oder Videoübertragung kommen.
+</div>
 
 ### Emojis
 
