@@ -21,7 +21,7 @@ title: PILOS Docs | Benutzer
 
    ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_3.png)
 
-{% include notification.html message="Ob du dich einloggen oder den Zugangscode eintippen muss, hängt von den Raumeinstellungen ab" %}
+{% include notification.html message="Ob Sie sich einloggen oder den Zugangscode eintippen müssen, hängt von den Raumeinstellungen ab" %}
 
 
    
