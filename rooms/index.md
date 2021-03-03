@@ -83,7 +83,7 @@ Dann können Sie eine der verfügbaren Emojis auswählen.
 
 ### Geteilte Notizen
 
-Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen. Um die zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhald der Teilnehmerliste.
+Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen. Um die zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhalb der Teilnehmerliste.
 
 ![Geteilte Notizen]({{ site.baseurl }}/assets/img/screenshots/rooms/shared_notes.png)
 
@@ -98,5 +98,38 @@ Dann wählen Sie ein beliebiges Format.
 
 Und der Download wird gestartet.
 
-## Moderator
+## Präsentator
+
+### Folien
+
+Präsentator kann Foliensätze hochladen und anderen Teilnehmer zeigen.
+
+{% include notification.html message="Präsentator hat auch Zugriff auf vom Raummoderator hochgeladene Folien." %}
+
+
+Um Folien hochzuladen drücken Sie auf Plus Icon links unten.
+Dann auf "Präsentation hochladen".
+
+![Folien hochladen]({{ site.baseurl }}/assets/img/screenshots/rooms/slides_upload.png)
+
+In dem geöffnetem Fenster können Sie alle Foliensätze im Raum verwalten.
+
+![Folien verwalten]({{ site.baseurl }}/assets/img/screenshots/rooms/slides_manage.png)
+
+1. Abbrechen
+
+2. Hochladen/bestätigen
+
+3. Folien zum Herunterladen für Teilnehmer freigeben.
+
+4. Präsentation zum Anzeigen auswählen.
+
+5. Folien entfernen.
+
+6. Neue Folien hochladen.
+
+<div class="notification is-info">
+  Sie können neue Folien per Drag-and-Drop ins Browserfenster ziehen oder, wenn Sie auf "oder nach Dateien suchen" klicken, eine oder mehrere(mit <span class="tag is-warning is-medium">Ctrl+LMT</span> )  Dateien im Uploadfenster auswählen.
+</div>
+### Bildschirmfreigabe
 
