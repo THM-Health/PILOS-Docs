@@ -67,20 +67,10 @@ defaults:
       type: "pages"
     values:
       show_sidebar: false
-      hide_hero: true
       layout: page
-      menubar: user_menubar
   -
     scope:
       path: "/blog/"
-      type: "blog"
-    values:
-      author: "PILOS Team"
-      layout: post
-      show_sidebar: true
-  -
-    scope:
-      path: "/pilos/"
       type: "blog"
     values:
       author: "PILOS Team"

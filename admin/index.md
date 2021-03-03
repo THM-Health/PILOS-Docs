@@ -1,5 +1,7 @@
 ---
 title: PILOS Docs | Administratoren
+hide_hero: true
+menubar: admin_menubar
 ---
 
 ## PILOS einstellen

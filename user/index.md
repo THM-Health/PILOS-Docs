@@ -1,5 +1,7 @@
 ---
 title: PILOS Docs | Benutzer
+hide_hero: true
+menubar: user_menubar
 ---
 
 ## Einem Raum beitreten
