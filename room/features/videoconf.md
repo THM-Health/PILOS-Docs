@@ -16,7 +16,7 @@ Wenn die Videokonferenz noch nicht gestartet wurde können Sie mit einem Klick a
 
 {% include notification.html status="is-info" icon="fas fa-info-circle" message="**Berechtigung**  Die Videokonferenz kann immer von dem Eigentümer des Raums und den Moderatoren gestartet werden." %}
 <br>
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Teilnehmern erlauben die Konferenz selbständig zu starten](../../settings)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Teilnehmern erlauben die Konferenz selbständig zu starten](../settings)" %}
 <br>
 
 Wenn die Videokonferenz noch nicht gestartet wurde und Sie nicht die Berechtigung haben die Videokonferenz zu starten, sehen Sie einen Ladekreis und die Meldung "Der Raum ist noch nicht gestartet.".

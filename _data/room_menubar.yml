@@ -3,21 +3,21 @@
     - name: Meine Räume (Startseite)
       link: /room/
     - name: Raum beitreten
-      link: /room/join/
+      link: /room/join
     - name: Raum erstellen
-      link: /room/create/
+      link: /room/create
     - name: Funktionen
       link: #
       items:
         - name: Videokonferenz
-          link: /room/features/videoconf/
+          link: /room/features/videoconf
         - name: Mitgliedschaft
-          link: /room/features/membership/
+          link: /room/features/membership
         - name: Dateien
           link: /room/features/files
     - name: Einstellungen
       link: /room/settings
     - name: Raumsuche
-      link: /room/list/
+      link: /room/list
     - name: Raumarten
-      link: /room/types/
+      link: /room/types

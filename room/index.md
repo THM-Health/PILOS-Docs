@@ -23,4 +23,4 @@ Um einen Raum zu betreten, klicken Sie diesen. Wenn Sie viele Räume haben, kön
 
 Alle Räume in denen Sie Mitglied sind werden Ihnen hier aufgelistet. Um einen Raum zu betreten, klicken Sie diesen. Wenn Sie viele Räume haben, können Sie auch die Suche (oben rechts) verwenden.
 
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren** [Raummitgliedschaft](features/membership/)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren** [Raummitgliedschaft](features/membership)" %}

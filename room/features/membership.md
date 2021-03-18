@@ -11,7 +11,7 @@ Damit Nutzer über eine längere Zeit einem Raum nutzen können oder ein Raum ei
 
 ### Mitglied werden
 
-Wenn der Raumeigentümer die Funktion aktiviert hat, kann jeder Nutzer selber Mitglied eines Raumes werden. Alle Mitgliedschaften in Räumen werden auf der [persönlichen Startseite]({{ site.baseurl }}/room/) anzeigt.
+Wenn der Raumeigentümer die Funktion aktiviert hat, kann jeder Nutzer selber Mitglied eines Raumes werden. Alle Mitgliedschaften in Räumen werden auf der [persönlichen Startseite](../) anzeigt.
 Um Mitglied zu werden, klicken Sie oben rechts auf "Mitglied werden".
 
 ![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/room/membership/join.png)

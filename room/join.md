@@ -8,9 +8,9 @@ menubar: room_menubar
 
 Sie können einem Raum über unterschiedliche Wege beitreten:
 
-1. Sie sind der Eigentümer des Raumes: Sie finden alle Ihre Räume auf Ihrer [persönlichen Startseite](../).
-2. Sie sind Mitglied in dem Raum: Sie finden alle Ihre Raummitgliedschaften auf Ihrer [persönlichen Startseite](../).
-3. Sie möchten einen öffentlich gelisteten Raum finden: Nutzen Sie die [Raumsuche](../list/).
+1. Sie sind der Eigentümer des Raumes: Sie finden alle Ihre Räume auf Ihrer [persönlichen Startseite](../room/).
+2. Sie sind Mitglied in dem Raum: Sie finden alle Ihre Raummitgliedschaften auf Ihrer [persönlichen Startseite](../room/).
+3. Sie möchten einen öffentlich gelisteten Raum finden: Nutzen Sie die [Raumsuche](../room/list).
 4. Sie haben einen Link erhalten: Lesen Sie [hier](#mit-link-beitreten) weiter.
 
 Manche Räume sind durch einen Zugangscode geschützt. Wenn Sie kein Mitglied des Raumes sind, müssen Sie den Zugangscode eingeben, um in dem Raum zu gelangen.
@@ -18,7 +18,7 @@ Manche Räume sind durch einen Zugangscode geschützt. Wenn Sie kein Mitglied de
 ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_3.png)
 
 
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Zugangscode ändern/löschen](../settings/)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Zugangscode ändern/löschen](../room/settings)" %}
 
 
 
@@ -34,7 +34,7 @@ Sollten Sie kein Benutzerkonto haben, können Sie diesen Raum leider nicht nutze
 
 <br>
 
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Raum für Gäste freigeben](../settings/)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Raum für Gäste freigeben](../room/settings)" %}
 
 
 
@@ -46,7 +46,7 @@ Wenn die Videokonferenz noch nicht gestartet wurde können Sie mit einem Klick a
 
 {% include notification.html status="is-info" icon="fas fa-info-circle" message="**Berechtigung**  Die Videokonferenz kann immer von dem Eigentümer des Raums und den Moderatoren gestartet werden." %}
 <br>
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Teilnehmern erlauben die Konferenz selbständig zu starten](../settings/)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Teilnehmern erlauben die Konferenz selbständig zu starten](../room/settings)" %}
 <br>
 
 Wenn die Videokonferenz noch nicht gestartet wurde und Sie nicht die Berechtigung haben die Videokonferenz zu starten, sehen Sie einen Ladekreis und die Meldung "Der Raum ist noch nicht gestartet.".
