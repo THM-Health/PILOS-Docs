@@ -12,7 +12,7 @@ Klicken Sie auf Ihrer [persönlichen Startseite](../room/) unter dem Abschnitt "
 
 {% include notification.html message="Sie können keinen neuen Raum erstellen, wenn:
 * Sie haben die maximale Anzahl an Räumen erreicht haben.
-* Sie sind nicht die erforderlichen Berechtigugen dafür haben.
+* Sie sind nicht die erforderlichen Berechtigungen dafür haben.
 " %}
 <br>
 

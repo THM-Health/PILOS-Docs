@@ -36,7 +36,7 @@ Als Raumeingetümer können Sie jederzeit auch selber Nutzer Ihrem Raum hinzufü
 
 ![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/room/membership/overview-add.png)
 
-In dem sich geöffneten Popup-Fenster können Sie nach Benutzern suchen, einen Benutzer auswählen, eine Rolle für den Nutzer festlegen und mit "Hinzufügen" speichern.
+In dem geöffneten Popup-Fenster können Sie nach Benutzern suchen, einen Benutzer auswählen, eine Rolle für den Nutzer festlegen und mit "Hinzufügen" speichern.
 
 ![Teilnehmer hinzufügen]({{ site.baseurl }}/assets/img/screenshots/room/membership/add.png)
 
@@ -44,7 +44,7 @@ In dem sich geöffneten Popup-Fenster können Sie nach Benutzern suchen, einen B
 
 Die max. Anzahl an Mitglieder die Ihnen auch einer Seite angezeigt werden ist begrenzt. Um alle Mitglieder zu sehen, können Sie die Seite mit der Navigation am Ende der Tabelle wechseln (a).
 
-Möchten Sie die Rolle eines Mitglieds bearbeiten, klicken Sie auf den Button mit dem Bearbeiten-Icon (b). In dem sich geöffneten Popup-Fenster können Sie die Rolle für den Nutzer ändern und mit "Speichern" speichern.
+Möchten Sie die Rolle eines Mitglieds bearbeiten, klicken Sie auf den Button mit dem Bearbeiten-Icon (b). In dem geöffneten Popup-Fenster können Sie die Rolle für den Nutzer ändern und mit "Speichern" speichern.
 
 Möchten Sie die Mitgliedschaft eines Benutzers beenden, klicken Sie auf den Button mit dem Löschen-Icon (c).
 
@@ -64,4 +64,4 @@ Möchten Sie die Mitgliedschaft eines Benutzers beenden, klicken Sie auf den But
 * Raum wird auf Startseite angezeigt
 * Es wird kein Zugangscode benötigt
 * Kann den Raum immer starten
-* Können Link und den Zugangscode (wenn vorhanden) sehen und damit den Raum weiteren Nutzern und Gästen (wenn erlaubt) zugänglich machen
+* Kann Link und den Zugangscode (wenn vorhanden) sehen und damit den Raum weiteren Nutzern und Gästen (wenn erlaubt) zugänglich machen

@@ -13,7 +13,7 @@ Sie können einem Raum über unterschiedliche Wege beitreten:
 3. Sie möchten einen öffentlich gelisteten Raum finden: Nutzen Sie die [Raumsuche](../room/list).
 4. Sie haben einen Link erhalten: Lesen Sie [hier](#mit-link-beitreten) weiter.
 
-Manche Räume sind durch einen Zugangscode geschützt. Wenn Sie kein Mitglied des Raumes sind, müssen Sie den Zugangscode eingeben, um in dem Raum zu gelangen.
+Manche Räume sind durch einen Zugangscode geschützt. Wenn Sie kein Mitglied des Raumes sind, müssen Sie den Zugangscode eingeben, um in den Raum zu gelangen.
 
 ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_3.png)
 
@@ -40,7 +40,7 @@ Sollten Sie kein Benutzerkonto haben, können Sie diesen Raum leider nicht nutze
 
 ## Videokonferenz starten
 
-Wenn die Videokonferenz noch nicht gestartet wurde können Sie mit einem Klick auf "Starten" die Videokonferenz starten und dem Videokonferenzraum beitreten.
+Wenn die Videokonferenz noch nicht gestartet wurde, können Sie mit einem Klick auf "Starten" die Videokonferenz starten und dem Videokonferenzraum beitreten.
 
 ![Starten]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/start.png)
 

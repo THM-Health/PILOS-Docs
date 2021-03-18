@@ -7,7 +7,7 @@ menubar: user_menubar
 ## Anmelden
 
 Um die meisten Funktionen PILOS verwenden zu können, müssen Sie sich mit Ihrem Benutzerkonto anmelden.
-Für die Anmeldung stehen Ihnen zwei Verschiedene Arten zur Verfügung:
+Für die Anmeldung stehen Ihnen zwei verschiedene Arten zur Verfügung:
 
 ### LDAP
 

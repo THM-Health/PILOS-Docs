@@ -7,8 +7,8 @@ menubar: user_menubar
 
 ## Benutzerprofil
 
-Sie können Ihr Benutzerprofil öffnen, indem Sie in der Menüleite oben rechts auf Ihren eigenen Namen klicken.
-In dem sich öffnenden Dropdown-Menü wählen Sie den Eintrag "Profil aus".
+Sie können Ihr Benutzerprofil öffnen, indem Sie in der Menüleiste oben rechts auf Ihren eigenen Namen klicken.
+In dem sich öffnenden Dropdown-Menü wählen Sie den Eintrag "Profil" aus.
 
 
 <img src="{{ site.baseurl }}/assets/img/screenshots/user/profile-menu.png" alt="profile menu" style="max-width: 100%; width: 400px" />
@@ -21,7 +21,7 @@ In dem sich öffnenden Dropdown-Menü wählen Sie den Eintrag "Profil aus".
 Wenn Sie ein Benutzerkonto ohne LDAP haben und Ihre Berechtigungen es zulassen, können Sie Ihren Vor- und Nachnamen und eMail-Adresse ändern.
 Sollte die Ihnen automatisch zugewiesene Rolle Ihrer Meinung nach falsch sein, kontaktieren Sie bitte den Support.
 
-In dieser Ansicht können Sie ebenfalls Ihre Zeitzone einstellen, in diesem Fall werden die Datums und Uhrzeitangaben in PILOS und in Emails in der gewünschten Zeitzone angezeigt.
+In dieser Ansicht können Sie ebenfalls Ihre Zeitzone einstellen, in diesem Fall werden die Datum- und Uhrzeitangaben in PILOS und in Emails in der gewünschten Zeitzone angezeigt.
 
 
 ### Passwort ändern
@@ -40,10 +40,10 @@ Benutzer ohne LDAP können Ihr Passwort in PILOS selbständig ändern. LDAP Nutz
 
 ### Sprache ändern
 
-Sie können jederzeit Ihre bevorzugte Sprache über die Menüleiste ändern
+Sie können jederzeit Ihre bevorzugte Sprache über die Menüleiste ändern.
 <img src="{{ site.baseurl }}/assets/img/screenshots/user/lang-selector.png" alt="profile menu" style="max-width: 100%; width: 400px" />
 
-Alternativ können Sie die Sprache auch in Ihrem Benutzerprofil ändern
+Alternativ können Sie die Sprache auch in Ihrem Benutzerprofil ändern.
 
 
 ### Echo-Test deaktivieren
