@@ -1,92 +1,27 @@
 ---
-title: PILOS Docs | Benutzer
+title: PILOS Docs | Login
 hide_hero: true
 menubar: user_menubar
 ---
 
-## Einem Raum beitreten
+## Anmelden
 
-- <a href="#link">Über einen Link</a>
-- <a href="#geteilter-raum">Über einen geteilten Raum</a>
+Um die meisten Funktionen PILOS verwenden zu können, müssen Sie sich mit Ihrem Benutzerkonto anmelden.
+Für die Anmeldung stehen Ihnen zwei Verschiedene Arten zur Verfügung:
 
+### LDAP
 
-### Link
-1. Den Link in die Adresszeile einfügen
+Wenn Sie Student oder Mitarbeiter an der THM sind, können Sie sich mit Ihrer THM Benutzerkennung und Ihrem Passwort hier anmelden.
 
-   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_1.png)
+![LDAP]({{ site.baseurl }}/assets/img/screenshots/user/login/ldap.png)
 
-2. Einloggen, wenn nötig
-
-   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_2.png)
-
-3. Den Zugangscode, wenn vorhanden, eintippen.
-
-   ![Link einfügen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/link_3.png)
-
-{% include notification.html message="Ob Sie sich einloggen oder den Zugangscode eintippen müssen, hängt von den Raumeinstellungen ab" %}
-
-
-   
-
-
-### Geteilter Raum
-1. Einen geteilten Raum auswählen.
-
-   ![Raum auswählen]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/1.png)
-
-2. Warten, wenn der Raum noch nicht gestartet wurde.
-
-   ![Auf Start warten]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/2.png)
-
-3. Auf "Teilnehmen" klicken.
-
-   ![Teilnehmen klicken]({{ site.baseurl }}/assets/img/screenshots/user/enter_room/3.png)
-
-## Einen Raum erstellen
-
-{% include notification.html message="Es kann sein, dass Sie keinen Raum erstellen können. Mögliche Gründe dafür sind:
-* Sie haben die maximale Anzahl an Räumen erreicht.
-* Sie sind nicht berechtigt, Räume zu erstellen
-" %}
-
-<div class="m-6"></div>
-
-1. Auf "Neuen Raum erstellen" klicken.
-
-   ![Raum erstellen klicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/1.png)
-
-2. Raumart auswählen und den Namen vergeben.
-
-   ![Raum auswählen und Namen vergeben]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/2.png)
-
-<div class="columns is-centered">
-    <a class="button is-primary" href="#">Mehr über Raumarten lesen</a>
-</div>
-
-3. Teilnehmer einladen.
-
-   ![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/3.png)
-
-4. Raum einstellen.
-
-   ![Raum Einstellenungen]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/4.png)
-
-Der Zugangscode wird für Gäste benötigt und Nutzer die keine Mitglieder des Raumes sind.
-
-{% include notification.html message="Begrenzung der maximaler Teilnehmeranzahl funktioniert noch nicht richtig" %}
-
-<div class="m-6"></div>
-
-<div class="columns is-centered">
-    <a class="button is-primary" href="#">Mehr über Raumeinstellungen lesen</a>
-</div>
-
-
-5. Auf "Starten" klicken.
-
-   ![Starten klicken]({{ site.baseurl }}/assets/img/screenshots/administrator/create_room/5.png)
-
-## Profil bearbeiten
+{% include notification.html  icon="fas fa-question-circle" message="**[Was ist meine THM-Benutzerkennung?](https://www.thm.de/its/helpdesk/faq/436-benutzerkonto.html#wie-sieht-die-th-benutzerkennung-aus)**." %}
 
 
 
+### Email
+
+Wenn Sie keine THM Benutzerkennung haben oder Sie Problem mit dem LDAP Login haben, kann das Support-Team Ihnen ein Benutzerkonto für den Email Login erstellen.
+
+Sollten Sie Ihr Passwort vergessen haben, können Sie sich mit einem Klick auf "Passwort vergessen?" einen Link für die Passwortzurücksetzung an Ihre eMail-Adresse schicken lassen.
+![Email]({{ site.baseurl }}/assets/img/screenshots/user/login/email.png)

@@ -1,7 +1,7 @@
 ---
-title: PILOS Docs | Räume
+title: PILOS Docs | Videokonferenz
 hide_hero: true
-menubar: rooms_menubar
+menubar: bbb_menubar
 ---
 
 ## Teilnehmer

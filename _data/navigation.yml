@@ -1,15 +1,8 @@
 - name: Benutzer
   link: /user/
-- name: Administratoren
-  link: /admin/
 - name: Räume
-  link: /rooms/
-- name: Blog
-  link: /blog/
-- name: Fortgeschritten
-  link: /#
-  dropdown:
-    - name: Raumarten
-      link: /advanced/room-types/
-    - name: Raumeinstellungen
-      link: /advanced/room-settings/
+  link: /room/
+#- name: Videokonferenz
+#  link: /bbb/
+#- name: Administration
+#  link: /admin/
