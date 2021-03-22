@@ -1,0 +1,23 @@
+- label: Räume
+  items:
+    - name: Meine Räume (Startseite)
+      link: /room/
+    - name: Raum beitreten
+      link: /room/join
+    - name: Raum erstellen
+      link: /room/create
+    - name: Funktionen
+      link: #
+      items:
+        - name: Videokonferenz
+          link: /room/features/videoconf
+        - name: Mitgliedschaft
+          link: /room/features/membership
+        - name: Dateien
+          link: /room/features/files
+    - name: Einstellungen
+      link: /room/settings
+    - name: Raumsuche
+      link: /room/list
+    - name: Raumarten
+      link: /room/types

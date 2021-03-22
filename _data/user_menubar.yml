@@ -1,0 +1,16 @@
+- label: Benutzer
+  items:
+    - name: Anmelden
+      link: /user/
+    - name: Profil anpassen
+      link: /user/profile
+      items:
+        - name: Stammdaten ändern
+          link: /user/profile#stammdaten-ändern
+        - name: Sprache ändern
+          link: /user/profile#sprache-ändern
+        - name: Passwort ändern
+          link: /user/profile#passwort-ändern
+        - name: Echo-Test deaktivieren
+          link: /user/profile#echo-test-deaktivieren
+

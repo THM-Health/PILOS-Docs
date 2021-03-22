@@ -1,0 +1,9 @@
+- label: Administratoren
+  items:
+    - name: PILOS einstellen
+      link: id:pilos-einstellen
+      items:
+        - name: Anwendung
+          link: id:anwendung
+        - name: Benutzer
+          link: id:benutzer

@@ -1,0 +1,23 @@
+- label: Videokonferenz
+  items:
+    - name: Teilnehmer
+      link: id:teilnehmer
+      items:
+        - name: Audio
+          link: id:audio
+        - name: Chat
+          link: id:chat
+        - name: Webcam
+          link: id:webcam
+        - name: Emojis
+          link: id:emojis
+        - name: Geteilte Notizen
+          link: id:geteilte-notizen
+
+    - name: Präsentator
+      link: id:präsentator
+      items:
+        - name: Folien
+          link: id:folien
+        - name: Bildschirmfreigabe
+          link: id:bildschirmfreigabe
