@@ -11,8 +11,8 @@ Die Dateien können den Teilnehmern zusätzlich jederzeit zum Download bereitges
 
 ### Ansicht für Teilnehmer, Moderatoren und Gäste
 
-Alle Nutzer die Zugriff auf den Raum haben und diesem beitreten können, können die Dateiliste (2) einsehen.
-In der Dateiliste werden nur Dateien angezeigt, die der Raumeigentümer für den Download freigeschaltet hat.
+Die Dateiliste (2) wird allen Nutzern angezeigt, die Zugriff auf den Raum haben und diesem beitreten können.
+In der Dateiliste werden nur Dateien angezeigt, die der Raumeigentümer für den Download freigegeben hat.
 
 ![Dateien Teilnehmer]({{ site.baseurl }}/assets/img/screenshots/room/files/public.png)
 
@@ -60,6 +60,8 @@ Werden bestimmte Funktionen von der Open Office Version nicht unterstützt, kann
 * **Herunterladbar (a)** Alle Benutzer die Zugriff auf diesen Raum haben können die Datei herunterladen (siehe Ansicht für Teilnehmer, Moderatoren und Gäste)
 * **Im nächsten Meeting nutzen (b)** Beim Start der nächsten Videokonferenz dieses Raumes wird die Datei in den Konferenzraum geladen und kann dort genutzt werden
 * **Standard (c)** Die Datei wird bei der nächsten Videokonferenz der Standard-Foliensatz sein und wird zu Beginn automatisch angezeigt
+
+*Alle Einstellungen die Sie ändern werden automatisch gespeichert.*
 
 #### Herunterladen/Anzeigen
 
