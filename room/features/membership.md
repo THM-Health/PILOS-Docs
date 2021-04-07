@@ -24,7 +24,7 @@ Klicken Sie dafür oben rechts auf "Mitgliedschaft beenden".
 
 ![Teilnehmer einladen]({{ site.baseurl }}/assets/img/screenshots/room/membership/end.png)
 
-{% include notification.html status="is-danger" icon="fas fa-info-circle" message="**Achtung**
+{% include notification.html status="is-danger" icon="fas fa-exclamation-triangle" message="**Achtung**
 * Wenn der Raum mit einem Zugangcode versehen ist, benötigen Sie diesen nach Ende Ihrer Mitgliedschaft.
 * Hatten Sie während der Mitgliedschaft die Rolle Moderator, so erlischt diese ebenfalls mit der Beendigung der Mitgliedschaft." %}
 
@@ -39,6 +39,8 @@ Als Raumeingetümer können Sie jederzeit auch selber Nutzer Ihrem Raum hinzufü
 In dem geöffneten Popup-Fenster können Sie nach Benutzern suchen, einen Benutzer auswählen, eine Rolle für den Nutzer festlegen und mit "Hinzufügen" speichern.
 
 ![Teilnehmer hinzufügen]({{ site.baseurl }}/assets/img/screenshots/room/membership/add.png)
+
+{% include notification.html status="is-info" icon="fas fa-info-circle" message="In der Benutzersuche werden nur Personen angezeigt, die sich mind. einmal bei PILOS angemeldet haben." %}
 
 ### Mitglieder verwalten
 
