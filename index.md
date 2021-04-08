@@ -10,8 +10,14 @@ hero_darken: true
 
 **Herzlich Willkommen zu der Online Dokumentation von PILOS an der THM.**
 
-Die Inhalte sind nach Kategorien geordnet und können über das Menü ausgewählt werden.
+Die Inhalte der Benutzerdokumentation sind nach Kategorien geordnet und können über das Menü (1) geöffnet werden.
 
+In jeder Kategorien können Sie Inhalte über die Seitenleiste (2) auswählen.
+
+Querverweise zu verwandten Inhalten finden Sie in den "Mehr erfahren"-Kästchen (3).
+
+<br>
+<img src="{{ site.baseurl }}/assets/img/screenshots/docs-menu.png" alt="Menü" width="800px"/>
 
 {% include notification.html  icon="fas fa-question-circle" message="**Fragen oder Probleme?**  Versuchen Sie bitte Ihre Anliegen zunächst mit dieser Dokumentation zu lösen.
 Sollte das nicht möglich sein, kontaktieren Sie den Email Support unter [pilos@thm.de](mailto:pilos@thm.de)." %}
