@@ -12,7 +12,7 @@ hero_darken: true
 
 Die Inhalte der Benutzerdokumentation sind nach Kategorien geordnet und können über das Menü (1) geöffnet werden.
 
-In jeder Kategorien können Sie Inhalte über die Seitenleiste (2) auswählen.
+In jeder Kategorie können Sie Inhalte über die Seitenleiste (2) auswählen.
 
 Querverweise zu verwandten Inhalten finden Sie in den "Mehr erfahren"-Kästchen (3).
 

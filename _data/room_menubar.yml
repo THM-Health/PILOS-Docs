@@ -21,3 +21,8 @@
       link: /room/list
     - name: Raumarten
       link: /room/types
+    - name: Sonstiges
+      link: #
+      items:
+        - name: Sicherheitseinstellungen macOS
+          link: /room/macos
