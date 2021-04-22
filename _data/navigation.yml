@@ -2,7 +2,7 @@
   link: /user/
 - name: Räume
   link: /room/
-#- name: Videokonferenz
-#  link: /bbb/
+- name: Videokonferenz
+  link: /bbb/
 #- name: Administration
 #  link: /admin/
