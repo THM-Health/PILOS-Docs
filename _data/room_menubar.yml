@@ -24,5 +24,7 @@
     - name: Sonstiges
       link: #
       items:
-        - name: Sicherheitseinstellungen macOS
-          link: /room/macos
+        - name: Sicherheitseinstellungen macOS (Chrome)
+          link: /room/macos-chrome
+        - name: Sicherheitseinstellungen macOS (Safari)
+          link: /room/macos-safari
