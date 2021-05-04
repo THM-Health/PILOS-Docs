@@ -1,0 +1,9 @@
+- label: Anleitungen
+  items:
+    - name: macOS
+      link: #
+      items:
+        - name: Sicherheitseinstellungen Chrome
+          link: /tutorial/macos/chrome
+        - name: Sicherheitseinstellungen Safari
+          link: /tutorial/macos/safari

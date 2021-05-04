@@ -1,12 +1,10 @@
 ---
-title: PILOS Docs | Benutzer
+title: PILOS Docs | Anleitung macOS Safari
 hide_hero: true
-menubar: room_menubar
+menubar: tutorial_menubar
 ---
 
-## Sicherheitseinstellungen macOS
-
-*Die Anleitung gilt nur für die Verwendung von PILOS mit Safari unter macOS Big Sur (Version 11.3).*
+## Sicherheitseinstellungen - macOS Big Sur - Safari
 
 <div class="columns is-multiline">
     <div class="card">

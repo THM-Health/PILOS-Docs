@@ -4,5 +4,7 @@
   link: /room/
 - name: Videokonferenz
   link: /bbb/
+- name: Anleitungen
+  link: /tutorial/
 #- name: Administration
 #  link: /admin/

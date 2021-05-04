@@ -1,12 +1,10 @@
 ---
-title: PILOS Docs | Benutzer
+title: PILOS Docs | Anleitung macOS Chrome
 hide_hero: true
-menubar: room_menubar
+menubar: tutorial_menubar
 ---
 
-## Sicherheitseinstellungen macOS
-
-*Die Anleitung gilt nur für die Verwendung von PILOS mit Google Chrome unter macOS Big Sur.*
+## Sicherheitseinstellungen - macOS Big Sur - Google Chrome
 
 <div class="columns is-multiline">
     <div class="card">
