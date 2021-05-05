@@ -67,3 +67,11 @@ Möchten Sie die Mitgliedschaft eines Benutzers beenden, klicken Sie auf den But
 * Es wird kein Zugangscode benötigt
 * Kann den Raum immer starten
 * Kann Link und den Zugangscode (wenn vorhanden) sehen und damit den Raum weiteren Nutzern und Gästen (wenn erlaubt) zugänglich machen
+
+### Mitbesitzer
+
+*Wie Moderator, zusätzlich:* 
+ 
+* Kann alle Mitglieder eines Raumes sehen und bearbeiten
+* Kann alle Dateien eines Raumes sehen und bearbeiten
+* Kann alle Einstellungen eines Raumes sehen und bearbeiten
