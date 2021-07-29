@@ -27,6 +27,7 @@ Die Einstellungen sind in 5 Abschnitte aufgeteilt:
 
 ![Einstellungen klicken]({{ site.baseurl }}/assets/img/screenshots/room/settings/settings.png)
 
+<hr>
 ## Allgemein
 
 ![Einstellungen Allgemein]({{ site.baseurl }}/assets/img/screenshots/room/settings/allgemein.png#center)
@@ -40,24 +41,34 @@ Die Einstellungen sind in 5 Abschnitte aufgeteilt:
 <br>
 {% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
 
+<hr>
 ## Sicherheit
 
 ![Einstellungen Sicherheit]({{ site.baseurl }}/assets/img/screenshots/room/settings/sicherheit.png#center)
 
 - **Zugangscode (1)** Mit einem Klick auf das Würfelsymbol können Sie einen neuen zufällig generierten Zugangscode erstellen. Wenn Sie den Raum ohne Zugangscode zur Verfügung stellen möchten, klicken Sie auf das Mülleimer Symbol. Es erscheint der Schriftzug "-- ungeschützt --"
 - **Gäste zulassen (2)** Standardmäßig ist die Option "Gäste zulassen" deaktiviert. So können nur angemeldete Nutzer den Raum betreten. Möchten Sie den Raum auch für nicht-angemeldete Nutzer verfügbar machen, so aktivieren Sie diese Option.
-- **Neue Mitglieder zulassen (3)** Aktivieren Sie diese Option, um Mitglieder zuzulassen, die sich erst vor kurzem für Pilos registriert haben. **(Nicht sicher ob das stimmt, nachfragen!)**
+- **Neue Mitglieder zulassen (3)** Wenn Sie diese Option aktivieren, können Personen sich selbst für den Raum als Mitglied anmelden. Um Mitglied des Raumes zu werden, ist der Zugangscode notwendig (Vorausgesetzt Sie haben Ihren Raum mit einem Zugangscode versehen). Wenn diese Option nicht aktiviert ist, müssen Sie Mitglieder manuell zu dem Raum hinzufügen.
 
 {% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
 
+<hr>
 ## Teilnehmer
 
 ![Einstellungen Teilnehmer]({{ site.baseurl }}/assets/img/screenshots/room/settings/teilnehmer.png#center)
 
 - **Max. Teilnehmerzahl (1)** Legen Sie die maximale Teilnehmerzahl des Raumes fest. Standardmäßig haben Räume keine Teilnehmerbegrenzung. 
-- **Standardrolle (2)** Hier können Sie die Rolle einstellen, die ein Mitglied beim betreten des Raumes erhalten soll. Dies funktioniert nur für angemeldete Nutzer, nicht für Gäste. Als Standardrolle ist "Teilnehmer" ausgewählt. Wählen Sie "Moderator" aus, um jedem neuen Teilnehmer die Moderatorenrolle zuzuweisen. Mehr zu den Berechtigungen der unterschiedlichen Rollen finden Sie unter [Mitgliedschaftsrollen](../room/features/membership#mitgliedschaftsrollen)
+- **Standardrolle (2)** Hier können Sie die Rolle einstellen, die ein Mitglied beim betreten des Raumes erhalten soll. Dies funktioniert nur für angemeldete Nutzer, nicht für Gäste. Als Standardrolle ist "Teilnehmer" ausgewählt. Wählen Sie "Moderator" aus, um jedem neuen Mitglied des Raumes die Moderatorenrolle zuzuweisen. Sie können die Rollen für jedes Mitglied bei Bedarf auch nachträglich anpassen (siehe [Mitglieder verwalten](../room/features/membership#mitglieder-verwalten)). Mehr zu den Berechtigungen der unterschiedlichen Rollen finden Sie unter [Mitgliedschaftsrollen](../room/features/membership#mitgliedschaftsrollen)
 - **Warteraum (3)** Hier können Sie die Warteraumfunktion aktivieren. Diese ist Standardmäßig deaktiviert. Wenn Sie die Funktion für Mitglieder (also registrierte Nutzer) aktivieren möchten, klicken Sie auf "Aktiviert". Wenn auch Gäste den Warteraum nutzen sollen, klicken Sie auf "Aktiviert für Gäste". 
-- **Anwesenheit der Teilnehmer protokollieren (4)** 
+- **Anwesenheit der Teilnehmer protokollieren (4)** Wenn Sie diese Option aktivieren, wird die Anwesenheit jedes Teilnehmers bei jeder aktiven Session aufgezeichnet. Teilnehmer können eine aktive Session jedoch nur betreten, wenn sie der Protokollierung der Anwesenheit zugestimmt haben. Die Zustimmung erfolgt über setzen eines Hakens in der Raumansicht (a). Um die aufgezeichneten Anwesenheiten einzusehen, klicken Sie in der Raumansicht auf "Historie" (b). Dort wird jede durchgeführte Session aufgelistet, mit Beginn- und Endzeit. Unter Aktionen finden Sie zwei blaue Buttons (c). Durch Klicken auf den rechten Button öffnet sich ein Popup-Fenster welches die Anwesenheiten der einzelnen Teilnehmer auflistet und die Zeit anzeigt, die diese an der Session teilgenommen haben.
+
+![Einstellungen Historie]({{ site.baseurl }}/assets/img/screenshots/room/settings/historie.png)
+
+![Einstellungen Anwesenheit]({{ site.baseurl }}/assets/img/screenshots/room/settings/anwesenheit.png)
+
+<hr>
+## Berechtigungen
+
 
 
 
