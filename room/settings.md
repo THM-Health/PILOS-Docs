@@ -19,11 +19,11 @@ Klicken Sie auf Ihrer [persönlichen Startseite](../room/) unter dem Abschnitt "
 <hr>
 Die Einstellungen sind in 5 Abschnitte aufgeteilt:
 
-1. Allgemein
-2. Sicherheit
-3. Teilnehmer
-4. Berechtigungen
-5. Einschränkungen
+1. [Allgemein](#allgemein)
+2. [Sicherheit](#sicherheit)
+3. [Teilnehmer](#teilnehmer)
+4. [Berechtigungen](#berechtigungen)
+5. [Einschränkungen](#einschränkungen)
 
 ![Einstellungen klicken]({{ site.baseurl }}/assets/img/screenshots/room/settings/settings.png)
 
@@ -60,15 +60,43 @@ Die Einstellungen sind in 5 Abschnitte aufgeteilt:
 - **Max. Teilnehmerzahl (1)** Legen Sie die maximale Teilnehmerzahl des Raumes fest. Standardmäßig haben Räume keine Teilnehmerbegrenzung. 
 - **Standardrolle (2)** Hier können Sie die Rolle einstellen, die ein Mitglied beim betreten des Raumes erhalten soll. Dies funktioniert nur für angemeldete Nutzer, nicht für Gäste. Als Standardrolle ist "Teilnehmer" ausgewählt. Wählen Sie "Moderator" aus, um jedem neuen Mitglied des Raumes die Moderatorenrolle zuzuweisen. Sie können die Rollen für jedes Mitglied bei Bedarf auch nachträglich anpassen (siehe [Mitglieder verwalten](../room/features/membership#mitglieder-verwalten)). Mehr zu den Berechtigungen der unterschiedlichen Rollen finden Sie unter [Mitgliedschaftsrollen](../room/features/membership#mitgliedschaftsrollen)
 - **Warteraum (3)** Hier können Sie die Warteraumfunktion aktivieren. Diese ist Standardmäßig deaktiviert. Wenn Sie die Funktion für Mitglieder (also registrierte Nutzer) aktivieren möchten, klicken Sie auf "Aktiviert". Wenn auch Gäste den Warteraum nutzen sollen, klicken Sie auf "Aktiviert für Gäste". 
-- **Anwesenheit der Teilnehmer protokollieren (4)** Wenn Sie diese Option aktivieren, wird die Anwesenheit jedes Teilnehmers bei jeder aktiven Session aufgezeichnet. Teilnehmer können eine aktive Session jedoch nur betreten, wenn sie der Protokollierung der Anwesenheit zugestimmt haben. Die Zustimmung erfolgt über setzen eines Hakens in der Raumansicht (a). Um die aufgezeichneten Anwesenheiten einzusehen, klicken Sie in der Raumansicht auf "Historie" (b). Dort wird jede durchgeführte Session aufgelistet, mit Beginn- und Endzeit. Unter Aktionen finden Sie zwei blaue Buttons (c). Durch Klicken auf den rechten Button öffnet sich ein Popup-Fenster welches die Anwesenheiten der einzelnen Teilnehmer auflistet und die Zeit anzeigt, die diese an der Session teilgenommen haben.
+- **Anwesenheit der Teilnehmer protokollieren (4)** Wenn Sie diese Option aktivieren, wird die Anwesenheit jedes Teilnehmers bei jeder aktiven Session aufgezeichnet. Teilnehmer können eine aktive Session jedoch nur betreten, wenn sie der Protokollierung der Anwesenheit zugestimmt haben. Die Zustimmung erfolgt über setzen eines Hakens in der Raumansicht (a). Um die aufgezeichneten Anwesenheiten einzusehen, klicken Sie in der Raumansicht auf "Historie" (b). Dort wird jede durchgeführte Session aufgelistet, mit Beginn- und Endzeit. Unter Aktionen finden Sie zwei blaue Buttons (c). Durch Klicken auf den rechten Button öffnet sich ein Popup-Fenster welches die Anwesenheiten der einzelnen Teilnehmer auflistet und die Zeit anzeigt, die diese an der Session teilgenommen haben (d).
 
 ![Einstellungen Historie]({{ site.baseurl }}/assets/img/screenshots/room/settings/historie.png)
 
 ![Einstellungen Anwesenheit]({{ site.baseurl }}/assets/img/screenshots/room/settings/anwesenheit.png)
 
+{% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
+
 <hr>
 ## Berechtigungen
 
+![Einstellungen Berechtigungen]({{ site.baseurl }}/assets/img/screenshots/room/settings/berechtigungen.png#center)
 
+- **Jeder darf das Meeting starten (1)** Ist diese Option nicht aktiviert, können nur Nutzer mit der Rolle "Moderator" das Meeting starten. Ist diese Option aktiviert, kann jeder Teilnehmer des Raumes das Meeting starten.
+- **Mikrofon bei Beitritt stummschalten (2)** Aktivieren Sie diese Option um das Mikrofon jedes Teilnehmers bei Beitritt des Meetings stummzuschalten. 
 
+{% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
 
+<hr>
+## Einschränkungen
+
+{% include notification.html status="is-info" icon="fas fa-info-circle" message="Die Einstellungen die in der Kategorie \"Einschränkungen\" getätigt werden können, sind Voreinstellungen für Meetings die in dem Raum stattfinden." %}
+   
+
+![Einstellungen Einschränkungen]({{ site.baseurl }}/assets/img/screenshots/room/settings/einschraenkungen.png#center)
+
+- **Einschränkungen aktivieren (1)** Aktivierte Optionen in dieser Kategorie sind auch nur dann wirklich aktiv in einem Meeting, wenn diese Option aktiviert ist. Ist sie nicht aktiviert, wird auch keine weitere gesetzte Einschränkung im Meeting aktiv sein.
+- **Webcam deaktivieren (2)** Wenn Sie diese Option aktivieren, ist die Webcam von Teilnehmern des Meetings deaktiviert und kann von diesen auch nicht aktiviert werden. 
+- **Webcam nur für Moderatoren sichtbar (3)** Wenn diese Option aktiviert ist, können nur Teilnehmer des Meetings mit der Rolle "Moderator" die Webcam der restlichen Teilnehmer sehen. Teilnehmer ohne die Rolle "Moderator" können keine Webcam anderer Teilnehmer sehen.
+- **Mikrofon deaktivieren (4)** Wenn Sie diese Option aktivieren, ist das Mikrofon von Teilnehmern des Meetings deaktiviert und kann von diesen auch nicht aktiviert werden.
+- **Öffentlichen Chat deaktivieren (5)** Aktivieren Sie diese Einschränkung um die Möglichkeit eines öffentlichen Chats während eines Meetings zu unterbinden. Das Aktivieren dieser Option schränkt nicht die Nutzung von privaten Chats ein!
+- **Private Chats deaktivieren (6)** Aktivieren Sie diese Einschränkung um zu unterbinden, dass Teilnehmer des Meetings private Nachrichten mit anderen Teilnehmern austauschen können. 
+- **Bearbeiten der Notizen deaktivieren (7)** Ist diese Einschränkung aktiviert, können nur Teilnehmer mit der Rolle "Moderator" die öffentlichen Notizen eines Meetings bearbeiten.
+- **Teilnehmerliste verbergen (8)** Wenn Sie diese Einschränkung aktivieren, können Teilnehmer nicht sehen wer noch an dem Meeting teilnimmt. Einem normalen Teilnehmer werden nur Teilnehmer mit der Rolle "Moderator" angezeigt. Teilnehmer mit der Rolle "Moderator" können alle Teilnehmer des Meetings in der Teilnehmerliste sehen.
+
+{% include notification.html status="is-info" icon="fas fa-info-circle" message="Die Einschränkungen können nachträglich während des Meetings geändert werden. Auch kann ein Moderator die Einschränkungen für einzelne Teilnehmer aufheben.  
+Mehr dazu [Videokonferenz](../bbb)" %}
+    
+   
+{% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
