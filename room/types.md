@@ -12,10 +12,6 @@ Die Raumarten in PILOS bestimmen die Art des Raums/Meetings. Jede Raumart wird m
 
 ### Aktuell verfügbare Raumarten
 
-{% include notification.html message="**Hinweis**
-PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müssen weiterhin [Studiosus](https://studiosus.pilos-thm.de) für Studentische Kleingruppen nutzen.
-" %}
-
 <br>
 <table class="table is-striped is-narrow is-fullwidth">
     <thead>
@@ -23,7 +19,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <th>Bezeichnung</th>
             <th>Kürzel/Icon</th>
             <th>Beschreibung</th>
-            <th>Alternative</th>
             <th>Server</th>
             <th>Einschränkung</th>
         </tr>
@@ -33,7 +28,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Vorlesung</td>
             <td>VL</td>
             <td>Vorlesungen</td>
-            <td>https://bbb.mni.thm.de</td>
             <td>THM Cluster (QSL-Mittel)</td>
             <td><i>keine</i></td>
         </tr>
@@ -41,7 +35,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Meeting</td>
             <td>ME</td>
             <td>Besprechungen (intern & extern)</td>
-            <td>https://meetings.pilos-thm.de</td>
             <td>THM Intern</td>
             <td>Raumsuche nicht möglich</td>
         </tr>
@@ -49,11 +42,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Prüfung</td>
             <td>PR</td>
             <td>Prüfungen</td>
-            <td>
-               https://11.pilos-thm.de<br>
-               https://12.pilos-thm.de<br>
-               https://bbb.mni.thm.de
-            </td>
             <td>THM Intern</td>
             <td>Raumsuche nicht möglich</td>
         </tr>
@@ -61,11 +49,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Übung</td>
             <td>ÜB</td>
             <td>Übungen</td>
-            <td>
-               https://11.pilos-thm.de<br>
-               https://12.pilos-thm.de<br>
-               https://bbb.mni.thm.de
-            </td>
             <td>THM Cluster (QSL-Mittel)</td>
             <td><i>keine</i></td>
         </tr>
@@ -73,7 +56,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Digitales Büro</td>
             <td>DB</td>
             <td>Digitales Büro, Sprechstunden</td>
-            <td>https://bueros.pilos-thm.de</td>
             <td>THM Intern</td>
             <td><i>keine</i></td>
         </tr>
@@ -81,7 +63,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Studentische Kleingruppe</td>
             <td>SK</td>
             <td>Gruppenarbeiten, Lernen, Prüfungsvorbereitung</td>
-            <td>https://studiosus.pilos-thm.de</td>
             <td>THM Cluster (QSL-Mittel)</td>
             <td>Raumsuche nicht möglich</td>
         </tr>
@@ -89,7 +70,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Große Vorlesung (nur GES)</td>
             <td>XL</td>
             <td>Vorlesungen des FB GES mit >100 Teilnehmern</td>
-            <td>https://roxy.pilos-thm.de</td>
             <td>FB GES Roxy</td>
             <td><i>keine</i></td>
         </tr>
@@ -97,10 +77,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Vorlesung (nur GES)</td>
             <td>GV</td>
             <td>Vorlesungen des FB GES</td>
-            <td>
-                https://11.pilos-thm.de<br>
-                https://12.pilos-thm.de
-            </td>
             <td>FB GES 11 & 12</td>
             <td><i>keine</i></td>
         </tr>
@@ -108,7 +84,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Backup Vorlesung auf Server 11 (nur GES)</td>
             <td>11</td>
             <td>Vorlesungen des FB GES (umgeht den Lastverteiler bei Störungen)</td>
-            <td>https://11.pilos-thm.de</td>
             <td>FB GES 11</td>
             <td><i>keine</i></td>
         </tr>
@@ -116,7 +91,6 @@ PILOS kann aktuell nur von Mitarbeitern der THM genutzt werden. Studenten müsse
             <td>Backup Vorlesung auf Server 12 (nur GES)</td>
             <td>12</td>
             <td>Vorlesungen des FB GES (umgeht den Lastverteiler bei Störungen)</td>
-            <td>https://12.pilos-thm.de</td>
             <td>FB GES 12</td>
             <td><i>keine</i></td>
         </tr>
