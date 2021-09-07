@@ -11,3 +11,8 @@ $primary: #80BA27;
 body {
   background-color: #f8fafc;
 }
+
+img[src*='#center'] { 
+  display: block;
+  margin: auto;
+}

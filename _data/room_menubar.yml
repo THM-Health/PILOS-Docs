@@ -17,6 +17,17 @@
           link: /room/features/files
     - name: Einstellungen
       link: /room/settings
+      items:
+        - name: Allgemein
+          link: /room/settings#allgemein
+        - name: Sicherheit
+          link: /room/settings#sicherheit
+        - name: Teilnehmer
+          link: /room/settings#teilnehmer
+        - name: Berechtigungen
+          link: /room/settings#berechtigungen
+        - name: Einschränkungen
+          link: /room/settings#einschränkungen
     - name: Raumsuche
       link: /room/list
     - name: Raumarten
