@@ -34,7 +34,7 @@ Sollten Sie kein Benutzerkonto haben, können Sie diesen Raum leider nicht nutze
 
 <br>
 
-{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Raum für Gäste freigeben](../room/settings)" %}
+{% include notification.html status="is-success" icon="fas fa-info-circle" message="**Mehr erfahren**  [Raum für Gäste freigeben](../room/settings#sicherheit)" %}
 
 
 

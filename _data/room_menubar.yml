@@ -13,6 +13,8 @@
           link: /room/features/videoconf
         - name: Mitgliedschaft
           link: /room/features/membership
+        - name: Personalisierte Raumlinks
+          link: /room/features/roomlinks
         - name: Dateien
           link: /room/features/files
     - name: Einstellungen

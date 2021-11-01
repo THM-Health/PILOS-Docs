@@ -48,6 +48,10 @@ Die Einstellungen sind in 5 Abschnitte aufgeteilt:
 
 - **Zugangscode (1)** Mit einem Klick auf das Würfelsymbol können Sie einen neuen zufällig generierten Zugangscode erstellen. Wenn Sie den Raum ohne Zugangscode zur Verfügung stellen möchten, klicken Sie auf das Mülleimer Symbol. Es erscheint der Schriftzug "-- ungeschützt --". Anmerkung: Mitglieder des Raumes können auch ohne Zugangscode beitreten.
 - **Gäste zulassen (2)** Standardmäßig ist die Option "Gäste zulassen" deaktiviert. So können nur angemeldete Nutzer den Raum betreten. Möchten Sie den Raum auch für nicht-angemeldete Nutzer verfügbar machen, so aktivieren Sie diese Option. Wenn Sie Gäste zulassen möchten, überlegen Sie einen Zugangscode und/oder Warteraum als zusätzliche Absicherung einzusetzen.
+
+{% include notification.html status="is-info" icon="fas fa-info-circle" message="Möchten Sie nur einzelnen Personen, die keine Mitglieder der THM sind, Zugriff auf den Raum gestatten wollen, nutzen Sie besser die Funktion '[Personalisierte Raumlinks](./features/roomlinks)' für mehr Einstellungsmöglichkeiten und erhöhte Sicherheit." %}
+
+
 - **Neue Mitglieder zulassen (3)** Wenn Sie diese Option aktivieren, können Personen sich selbst für den Raum als Mitglied anmelden. Um Mitglied des Raumes zu werden, ist der Zugangscode notwendig (Vorausgesetzt Sie haben Ihren Raum mit einem Zugangscode versehen). Wenn diese Option nicht aktiviert ist, müssen Sie Mitglieder manuell zu dem Raum hinzufügen.
 
 {% include notification.html message="**Wichtig!** Wenn Sie Einstellungen geändert haben, speichern Sie diese mit einem Klick auf den grünen Speichern-Button unten rechts" %}
