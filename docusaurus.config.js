@@ -9,7 +9,7 @@ const config = {
   title: 'PILOS Hilfe',
   tagline: 'Online Hilfe für PILOS',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/PILOS-Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
