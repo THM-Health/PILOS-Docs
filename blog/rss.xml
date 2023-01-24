@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>PILOS Hilfe Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://your-docusaurus-test-site.com/PILOS-Docs/blog</link>
         <description>PILOS Hilfe Blog</description>
         <lastBuildDate>Wed, 11 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>de</language>
         <item>
             <title><![CDATA[Abschaltung alte BBB und PILOS URLs]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2022/05/11/</link>
+            <link>https://your-docusaurus-test-site.com/PILOS-Docs/blog/2022/05/11/</link>
             <guid>/2022/05/11/</guid>
             <pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Anfang Juni 2021 wurde die Infrastruktur von PILOS neu organisiert und alle Räume auf die neue PILOS Verwaltungsoberfläche umgezogen (siehe Wartungsmeldung vom 01.06.2021). Die alten Links konnten in den folgenden Monaten weiter verwendet werden.]]></description>
@@ -18,7 +18,7 @@
         </item>
         <item>
             <title><![CDATA[Umzug alte BBB und PILOS Systeme]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2021/06/01/</link>
+            <link>https://your-docusaurus-test-site.com/PILOS-Docs/blog/2021/06/01/</link>
             <guid>/2021/06/01/</guid>
             <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Die folgenden Dienste wurden am 31.05 und 01.06.2021 zu pilos.thm.de umgezogen:]]></description>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Abschaltung alte BBB und PILOS URLs","permalink":"/PILOS-Docs/blog/2022/05/11/"},{"title":"Umzug alte BBB und PILOS Systeme","permalink":"/PILOS-Docs/blog/2021/06/01/"}]}')}}]);
