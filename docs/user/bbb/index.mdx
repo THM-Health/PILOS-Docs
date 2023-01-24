@@ -1,0 +1,347 @@
+---
+title: Videokonferenz
+---
+
+## Überblick
+
+![Überblick](./assets/overview.png)
+
+- **A**: Chat öffnen, wird in Bereich D angezeigt
+- **B**: Geteilte Notizen öffnen, wird in Bereich D angezeigt
+- **C**: Teilnehmerliste und Einstellungen
+- **D**: Bereich für Chat oder Geteilte Notizen
+- **E**: Titel, Verbindungsstatus und Einstellungen
+- **F**: Präsentationsfläche, Video und Bildschirmfreigabe
+- **G**: Audio, Video und Präsentationsmenü
+
+## Rollen
+### Moderator
+
+Moderatoren verwalten die Videokonferenz während der Durchführung und besitzen alle Rechte.
+Es können beliebig viele Teilnehmer Moderatoren sein.
+
+Ein Moderator kann:
+- Sich selbst und andere zum Präsentator ernennen
+- Teilnehmer stumm schalten/entfernen
+- Die Rechte der Teilnehmer einschränken
+- Teilnehmer verwalten
+- Breakout-Räume eröffnen
+- Die Konferenz beenden
+
+### Präsentator
+
+Der Präsentator hat weniger Befugnisse als der Moderator. Diese Rolle kann ohne Risiko an präsentierende Teilnehmer übertragen werden.
+Im Gegensatz zu Moderatoren kann es nur einen Präsentator geben. Der erste Moderator in einem Raum ist automatisch Präsentator.
+
+Ein Präsentator kann:
+- Eine Umfrage starten
+- Das Whiteboard verwenden
+- Eine Präsentation hochladen
+- Seinen Bildschirm teilen
+- Ein externes Video teilen
+
+### Teilnehmer
+
+Der Teilnehmer nimmt ohne besondere Berechtigungen an der Videokonferenz teil.
+
+Ein Teilnehmer kann:
+- Seine Webcam teilen
+- Über das Mikrofon sprechen
+- Mit Emojis reagieren und die Hand heben
+- Nachrichten im öffentlichen Chat schreiben
+- Nachrichten in privaten Chats an einzelne Nutzer
+- An Umfragen teilnehmen
+- Die geteilten Notizen bearbeiten
+
+:::tip Tipp
+
+Die meisten dieser Teilnehmerrechte können eingeschränkt werden. [Mehr dazu](#teilnehmerrechte-einschränken)
+
+:::
+
+### Gast
+
+Gäste sind Teilnehmer, welche ohne Nutzung eines Benutzerkontos an der Videokonferenz teilnehmen.
+
+:::warning Achtung
+
+Der angezeigte Name ist nicht durch die Verwaltungslösung PILOS verifiziert.
+
+Aus Sicherheitsgründen können Gäste auch niemals zu Moderatoren befördert werden.
+
+:::
+
+### Teilnehmerrechte einschränken
+
+Die Berechtigungen von Teilnehmern und Gästen können von Moderatoren eingeschränkt werden.
+Klicken Sie dafür in der Teilnehmerliste auf das Zahnrad-Symbol und anschließend auf "Teilnehmerrechte einschränken".
+
+In dem Dialogfenster können Sie dann unterschiedliche Programmfunktionen für Teilnehmer einschränken. Mit einem Klick auf "Anwenden" werden diese Regeln aktiv.
+
+:::tip
+
+Sie können diese Einschränkungen zum Teil auch schon im vorhinein in PILOS konfigurieren. [Mehr Erfahren](../room/settings.mdx#einschränkungen)
+
+:::
+
+
+## Teilnehmerliste
+
+In der Teilnehmerliste werden alle Nutzer angezeigt, die aktuell an der Videokonferenz teilnehmen.
+
+
+Die Form der Icons und Symbole hat dabei eine Bedeutung für die Rolle und den Audiostatus.
+
+<img src={require('./assets/list.png').default} alt="Teilnehmerliste" width="250"/>
+
+### Rolle
+- **Moderator**: Eckiges Icons (1)
+- **Präsentator**: Whiteboard-Icon oben links (1)
+- **Teilnehmer**: Rundes Icons (2,3,4)
+- **Gast**: Unterhalb des Namens wird "Gast" angezeigt
+
+### Audiostatus
+- **Mit Mikrofon**: Grünes Mikrofon-Icon unten rechts (1)
+- **Mit stumm geschaltetem Mikrofon**: Rotes durchgestrichenes Mikrofon-Icon unten rechts (3)
+- **Ohne Mikrofon**: Grünes Kopfhörer-Icon unten rechts (2)
+- **Ohne Audioverbindung**: Leeres Icon unten rechts (4)
+
+
+## Medien
+### Audio
+
+Die Audiokonferenz bietet Ihnen zwei unterschiedliche Arten der Teilnahme. Sie können entweder mit Mikrofon teilnehmen oder nur Zuhörer sein.
+
+Wenn Sie einer Konferenz beitreten, müssen Sie sich zunächst für eine der beiden Optionen entscheiden.
+Wählen Sie den Betritt mit einem Mikrofon, können Sie anschließend die Audioverbindung testen. Sollten Sie sich nicht verstehen, klicken Sie auf "Nein" umd die Audiogeräte zu konfigurieren.
+
+![Audio teilnehmen](./assets/audio_join.gif)
+
+#### Stummschalten / Freischalten
+
+Wenn Sie gerade nichts sagen, schalten Sie am besten Ihr Mikrofon stumm.
+Das können Sie unten über einen Klick auf das Mikrofon-Symbol erreichen. Durch einen erneuten Klick ist das Mikrofon wieder aktiv.
+Ist das Symbol grün, ist das Mikrofon aktiv, ist es grau und durchgestrichen ist es stumm. Auch in der Teilnehmerliste wird neben Ihrem Namen der Zustand des Mikrofons angezeigt.
+
+![Stumm schalten](./assets/audio_mute.gif)
+
+:::tip Shortcut Tipp
+
+Sie können das Mikrofon mit <kbd>Alt</kbd> + <kbd>M</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>M</kbd> (Mac) an- und ausschalten.
+
+:::
+
+
+#### Audiogeräte wechseln
+Wenn Sie die Audiogeräte wechseln möchten, klicken Sie unten neben dem Lautsprechersymbol auf den kleinen Pfeil.
+Haben Sie ohne Mikrofon teilgenommen, ist das Lautsprechersymbol ein Kopfhörersymbol.
+
+Währen Sie aus der Liste das gewünschte Audiogerät aus.
+
+![Audiogeräte wechseln](./assets/audio_devices.gif)
+
+#### Audio verlassen / beitreten
+
+Um den aktuellen Zustand der Audiokonferenz zu verändern, klicken Sie Lautsprecher- oder Kopfhörer-Symbol.
+Anschließend können Sie über einen erneuten Klick auf das Symbol der Audiokonferenz wieder beitreten.
+Hier müssen Sie erneut die Art der Teilnahme (Zuhören oder Mikrofon) auswählen.
+
+![Audio stoppen](./assets/audio_leave_join.gif)
+
+
+:::tip Shortcut Tipp
+
+Sie können das Audio mit <kbd>Alt</kbd> + <kbd>J</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>J</kbd> (Mac) starten und mit <kbd>Alt</kbd> + <kbd>L</kbd>(Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>L</kbd> (Mac) stoppen.
+
+:::
+
+
+### Webcam
+
+Um Ihre Webcam zu teilen, klicken Sie am unteren Bildschirmrand auf das Webcam-Symbol.
+Es öffnet sich ein neues Fenster, in dem Sie die gewünschte Kamera und die Qualität der Videoübertragung einstellen können.
+
+![weitere Webcam](./assets/single_video.gif)
+
+:::tip
+Wenn Sie nur über eine geringe Bandbreite verfügen, wählen Sie lieber eine geringere Qualität, da es sonst zu Problemen mit der Audio- oder Videoübertragung kommen kann.
+:::
+
+#### Virtueller Hintergrund
+
+Zur Wahrung Ihrer Privatsphäre können Sie den Hintergrund Ihres Webcam-Bildes verändern.
+Neben der Auswahl verschiedener Hintergründe können Sie auch den Hintergrund weichzeichnen lassen.
+
+Um den virtuellen Hintergrund wieder zu entfernen, klicken Sie auf das Bild mit dem "X".
+Sie können jederzeit den Hintergrund ändern, klicken Sie dafür am unteren Bildschirmrand auf den kleinen Pfeil neben dem Webcam-Symbol.
+
+![virtueller Hintergrund](./assets/virtual_video.gif)
+
+#### Weitere Kamera teilen
+
+Um weitere Inhalte und Personen zu zeigen, kann die Verwendung mehrerer Kameras hilfreich sein. Sie können über den kleinen Pfeil neben dem Video-Symbol die Einstellungen der Kamera öffnen.
+Wählen Sie aus dem Drop-Down die weitere Kamera aus und klicken auf "Freigabe starten".
+
+Um die Kamera wieder zu beenden, klicken Sie erneut auf den Pfeil neben dem Video-Symbol, wählen die Kamera aus und klicken auf "Teilen beenden".
+
+![weitere Webcam](./assets/second_video.gif)
+
+### Whiteboard
+
+Das Whiteboard ermöglicht Ihnen das Zeichen und Schreiben, sowie das Zeigen von Präsentationsinhalten.
+
+Um Folien hochzuladen, drücken Sie auf das Plus-Symbol unten links, dann auf "Präsentationen verwalten".
+Wählen Sie nun eine Datei von Ihrer Festplatte aus oder ziehen diese in das Drag and Drop Feld.
+Anschließend können Sie noch festlegen, ob die Teilnehmer die Präsentation herunterladen dürfen (Download-Icon) und welches die aktive Präsentation ist (Kreis mit Häkchen).
+
+![Präsentation hochladen](./assets/upload_slides.gif)
+
+:::tip Office Dateien
+
+Office Dateien, die Sie in einem Meeting nutzen wollen (Word, Excel, PowerPoint) werden mit einer Version von Open Office in Vektorgrafiken umgewandelt. Dabei gehen alle Animationen und Übergänge verloren.
+Werden bestimmte Funktionen von der Open Office Version nicht unterstützt, kann auch die Darstellung eingeschränkt sein.
+
+**Es wird dringend empfohlen Vorlesungsfolien vor dem Hochladen, als PDF Datei abzuspeichern und diese hochzuladen.**
+
+:::
+
+:::tip Folien im Vorhinein hochladen
+
+Sie können Ihre Folien im vorhinein in PILOS hochladen, verwalten und zum Download anbieten.
+[Mehr erfahren](room/functions/files.md#ansicht-für-raumeigentümer)
+
+:::
+
+:::caution Achtung
+
+Der Präsentator hat Zugriff auf alle Präsentationen, die im Laufe der Videokonferenz hochgeladen und noch nicht gelöscht wurden.
+
+:::
+
+#### Präsentation wechseln
+
+Haben Sie mehrere Präsentationen hochgeladen, können Sie zwischen diesen wechseln.
+Klicken Sie dafür aus das Plus-Symbol unten links und wählen die gewünschte Präsentation aus.
+
+![Präsentation wechseln](./assets/change_slides.gif)
+
+
+### Bildschirmfreigabe
+
+Da nicht alle Inhalte über Folien präsentiert werden können, gibt es die Möglichkeit den Bildschirm zu teilen.
+Sie dabei die Wahl zwischen Tabs Ihres Webbrowsers, Anwendungsfenstern und dem gesamten Bildschirm. Welche Optionen es gibt und wie die Auswahl erfolgt ist abhängig von Ihres Webbrowser und dem Betriebssystem.
+
+![Präsentation hochladen](./assets/share_screen.gif)
+
+:::info
+
+Das Teilen des Bildschirms ist auf mobilen Geräten (iOS und Android) aufgrund von Beschränkungen der Browser aktuell nicht möglich. Eine App für BigBlueButton ist in Arbeit.
+
+:::
+
+### Video teilen
+
+Um ein öffentlich verfügbares Video zu zeigen, benötigen Sie den Link zu dem Video.
+Aktuell werden folgende Links unterstützt:
+- YouTube
+- Vimeo
+- Instructure Media
+- Twitch
+- Dailymotion
+- Direkte Links zu .mp4 Dateien auf einem Server (NextCloud und Hessenbox werden nicht unterstützt)
+
+Klicken Sie unten links auf das Plus-Symbol und wählen die Option "Externes Video teilen" aus.
+Fügen Sie in dem neuen Fenster den Link zu dem Video ein und klicke auf "Neues Video teilen".
+
+Um das Teilen des Videos für alle zu beenden, klicken Sie erneut auf das Plus-Symbol und wählen "Teilen von externem Video beenden" aus.
+
+![Video teilen](./assets/share_video.gif)
+
+## Interaktion
+
+### Chat
+
+![Chat](./assets/chat.gif)
+
+:::tip Shortcut Tipp
+  Sie können die Nachricht auch mit <kbd>⏎ Enter</kbd>  senden.
+:::
+
+Über den öffentlichen Chat können Sie Nachrichten zwischen allen Nutzern austauschen. Klicken Sie dafür auf der linken Seite auf "Öffentlicher Chat" um den Chat ein- oder auszublenden.
+Unten können Sie Nachrichten eingeben und mit einem Klick auf das Pfeil-Symbol abschicken. Nachrichten von Moderatoren sind im Chat mit einer dicken Schriftart besonders hervorgehoben.
+
+#### Chatverlauf kopieren, speichern, löschen
+
+Mit dem Klick rechts oben im Chat auf die drei Punkte kann der Chatverlauf gespeichert, kopiert oder gelöscht werden.
+
+![Chat speichern oder kopieren](./assets/chat_copy_or_save.png)
+
+#### Privater Chat
+
+Um nur einer Person eine Nachricht zu schicken, können Sie auf den Namen der Person in der Teilnehmerliste klicken und anschließend "Privaten Chat starten" auswählen.
+Es wird ein neuer Chat mit dieser Person erstellt. Auf der linken Seite können Sie jederzeit zwischen den privaten Chats und dem öffentlichen Chat wechsel.
+
+![Privaten Chat öffnen](./assets/new_private_chat.gif)
+
+Wenn Sie in einem anderen Chat eine neue Nachricht erhalten haben, wird das über ein kleines rotes Symbol angezeigt.
+
+![Neue Nachricht im privaten Chat](./assets/message_private_chat.gif)
+### Umfragen
+
+:::note Unvollständig
+
+Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+
+:::
+
+### Zufallsgenerator
+
+
+:::note Unvollständig
+
+Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+
+:::
+
+### Emojis
+
+Sie können mit Emojis auf Ereignisse im Raum reagieren.
+Dafür klicken Sie auf sich selbst links in der Teilnehmerliste und wählen Sie "Status setzen" aus.
+
+![Status setzen](./assets/emoji_set.png)
+
+:::tip Shortcut Tipp
+  Teilnehmerliste kann auch mit <kbd>Alt</kbd> + <kbd>U</kbd>  geöffnet oder geschlossen werden.
+:::
+
+Dann können Sie eine der verfügbaren Emojis auswählen.
+
+![Emoji auswählen](./assets/emoji_choose.png)
+
+### Hand heben
+
+:::note Unvollständig
+
+Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+
+:::
+
+### Geteilte Notizen
+
+Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen. Um die zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhalb der Teilnehmerliste.
+
+![Geteilte Notizen](./assets/shared_notes.png)
+
+
+Diese Notizen können Sie dann herunterladen. Klicken Sie dafür auf "Download"-Icon rechts oben im Fenster "Geteilte Notizen".
+Anschließend können Sie das gewünschte Format auswählen.
+
+![Geteilte herunterladen](./assets/shared_notes_choose_format.png)
+
+## Gruppenräume
+
+:::note Unvollständig
+
+Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+
+:::
