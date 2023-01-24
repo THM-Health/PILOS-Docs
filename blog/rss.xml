@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>PILOS Hilfe Blog</title>
+        <link>https://your-docusaurus-test-site.com/blog</link>
+        <description>PILOS Hilfe Blog</description>
+        <lastBuildDate>Wed, 11 May 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>de</language>
+        <item>
+            <title><![CDATA[Abschaltung alte BBB und PILOS URLs]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/2022/05/11/</link>
+            <guid>/2022/05/11/</guid>
+            <pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anfang Juni 2021 wurde die Infrastruktur von PILOS neu organisiert und alle Räume auf die neue PILOS Verwaltungsoberfläche umgezogen (siehe Wartungsmeldung vom 01.06.2021). Die alten Links konnten in den folgenden Monaten weiter verwendet werden.]]></description>
+            <content:encoded><![CDATA[<p>Anfang Juni 2021 wurde die Infrastruktur von PILOS neu organisiert und alle Räume auf die neue PILOS Verwaltungsoberfläche umgezogen (siehe Wartungsmeldung vom 01.06.2021). Die alten Links konnten in den folgenden Monaten weiter verwendet werden.</p><p>Mit dem heutigen Tag (11.05.2022) werden diese alten URLs auf diese Wartungsseite umgeleitet. Die Nutzer werden nach einer Hinweismeldung weiterhin an den richtigen Raum weitergeleitet.</p><p>Ab dem 01.06.2022 werden die URLs mit den folgenden Domainnamen jedoch nicht mehr funktionieren!</p><ul><li>11.pilos-thm.de</li><li>11.pilos-thm.de</li><li>roxy.pilos-thm.de</li><li>bueros.pilos-thm.de</li><li>meetings.pilos-thm.de</li></ul><p><strong>Sollten Sie noch alte Links verwenden, ändern Sie diese sofort!</strong></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Umzug alte BBB und PILOS Systeme]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/2021/06/01/</link>
+            <guid>/2021/06/01/</guid>
+            <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Die folgenden Dienste wurden am 31.05 und 01.06.2021 zu pilos.thm.de umgezogen:]]></description>
+            <content:encoded><![CDATA[<p>Die folgenden Dienste wurden am 31.05 und 01.06.2021 zu pilos.thm.de umgezogen:</p><ul><li>bbb.mni.thm.de</li><li>11.pilos-thm.de</li><li>11.pilos-thm.de</li><li>roxy.pilos-thm.de</li><li>bueros.pilos-thm.de</li><li>meetings.pilos-thm.de</li></ul><p><strong>Wichtige Hinweise</strong></p><ul><li>Die alten Links zu den Räumen funktionieren weiterhin, die Nutzer werden zu dem gleichen Raum in pilos.thm.de weitergeleitet. Sobald der umgezogene Raum in pilos.thm.de gelöscht wird, wird auch die Weiterleitung aufgehoben.</li><li>Die umgezogenen Räume erkennen Sie an dem Namenspräfix (BBB MNI) oder (Umzug PILOS ...).</li><li>Bitte löschen Sie Räume, die Sie nicht mehr benötigen oder entfernen das Namenspräfix.</li><li>Es kann sein, dass durch die umgezogenen Räume Ihr Raumkontingent erschöpft ist. In diesem Fall löschen Sie bitte nicht mehr benötigte Räume.</li><li>Wenn Sie die Meldung "Die Nutzung der Raumart ist nur für bestimmte Nutzergruppen genehmigt ..." sehen, liegt es entweder daran, dass der Raumeigentümer sich am neuen System noch nicht angemeldet hat oder vom System nicht als berechtigt erkannt wurde. Wenn es nicht ihren Raum betrifft, bitten Sie den Raumeigentümer sich am neuen System anzumelden. Sollte der Fehler bestehen bleiben, kontaktieren Sie bitte den Support unter <a href="mailto:pilos@thm.de" target="_blank" rel="noopener noreferrer">pilos@thm.de</a></li></ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
