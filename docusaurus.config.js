@@ -65,9 +65,9 @@ const config = {
       navbar: {
         title: 'PILOS Hilfe',
         logo: {
-          alt: 'My Site Logo',
           alt: 'Hilfe Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logo-dark.svg'
         },
         items: [
           {
