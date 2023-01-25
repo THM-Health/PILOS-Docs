@@ -66,6 +66,7 @@ const config = {
         title: 'PILOS Hilfe',
         logo: {
           alt: 'My Site Logo',
+          alt: 'Hilfe Logo',
           src: 'img/logo.svg',
         },
         items: [

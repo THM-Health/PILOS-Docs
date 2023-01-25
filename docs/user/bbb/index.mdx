@@ -67,9 +67,49 @@ Gäste sind Teilnehmer, welche ohne Nutzung eines Benutzerkontos an der Videokon
 
 Der angezeigte Name ist nicht durch die Verwaltungslösung PILOS verifiziert.
 
-Aus Sicherheitsgründen können Gäste auch niemals zu Moderatoren befördert werden.
+:::
+
+### Rolle ändern
+
+#### Präsentator
+
+Als Moderator können Sie die Rolle des Präsentators an Teilnehmer geben, indem Sie in der Teilnehmerliste auf den Namen des Teilnehmers klicken und "Zum Präsentator machen" auswählen.
+
+Um selber wieder Präsentator zu sein, können Sie als Moderator auf Ihren eigenen Namen klicken und "Zum Präsentator werden" auswählen.
+Alternativ können Sie auch unten auf das Plus-Symbol klicken und dort "Zum Präsentator werden" auswählen.
+
+![Präsentator ändern](./assets/change_presenter.gif)
+
+#### Moderator
+
+Als Moderator können Sie andere Teilnehmer zu Moderatoren befördern.
+
+Klicken Sie dafür in der Teilnehmerliste auf den Namen des Teilnehmers und wählen "Zum Moderatoren ernennen" aus.
+
+Um den Teilnehmer wieder zu einem normalen Teilnehmer zu machen, klicken Sie erneut auf den Namen in der Teilnehmerliste und wählen "Zum Teilnehmer zurückstufen" aus.
+
+:::note Gäste
+
+Aus Sicherheitsgründen können Gäste nicht zu Moderatoren befördert werden.
 
 :::
+
+:::warning Achtung
+
+Die Rolle des Moderators sollte bedacht vergeben werden, da jeder Moderator die folgenden Aktionen ausführen kann:
+
+- Sich selber und andere zum Präsentator ernennen
+- Moderatoren ernennen und zurückstufen (auch Dozenten die Moderatoren-Rolle entziehen)
+- Teilnehmer (auch Dozenten) stumm schalten/entfernen
+- Teilnehmer aus dem Raum entfernen (auch Dozenten)
+- Breakout Räume eröffnen
+- Die Konferenz beenden
+
+:::
+
+
+
+![Moderator ändern](./assets/change_moderator.gif)
 
 ### Teilnehmerrechte einschränken
 
@@ -105,6 +145,10 @@ Die Form der Icons und Symbole hat dabei eine Bedeutung für die Rolle und den A
 - **Mit stumm geschaltetem Mikrofon**: Rotes durchgestrichenes Mikrofon-Icon unten rechts (3)
 - **Ohne Mikrofon**: Grünes Kopfhörer-Icon unten rechts (2)
 - **Ohne Audioverbindung**: Leeres Icon unten rechts (4)
+
+:::tip Shortcut Tipp
+Teilnehmerliste kann mit <kbd>Alt</kbd> + <kbd>U</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>U</kbd> (Mac) geöffnet oder geschlossen werden.
+:::
 
 
 ## Medien
@@ -188,6 +232,12 @@ Um die Kamera wieder zu beenden, klicken Sie erneut auf den Pfeil neben dem Vide
 
 ### Whiteboard
 
+:::note Hinweis
+
+Diese Funktion kann nur von dem Moderator verwendet werden
+
+:::
+
 Das Whiteboard ermöglicht Ihnen das Zeichen und Schreiben, sowie das Zeigen von Präsentationsinhalten.
 
 Um Folien hochzuladen, drücken Sie auf das Plus-Symbol unten links, dann auf "Präsentationen verwalten".
@@ -228,6 +278,12 @@ Klicken Sie dafür aus das Plus-Symbol unten links und wählen die gewünschte P
 
 ### Bildschirmfreigabe
 
+:::note Hinweis
+
+Diese Funktion kann nur von dem Moderator verwendet werden
+
+:::
+
 Da nicht alle Inhalte über Folien präsentiert werden können, gibt es die Möglichkeit den Bildschirm zu teilen.
 Sie dabei die Wahl zwischen Tabs Ihres Webbrowsers, Anwendungsfenstern und dem gesamten Bildschirm. Welche Optionen es gibt und wie die Auswahl erfolgt ist abhängig von Ihres Webbrowser und dem Betriebssystem.
 
@@ -240,6 +296,12 @@ Das Teilen des Bildschirms ist auf mobilen Geräten (iOS und Android) aufgrund v
 :::
 
 ### Video teilen
+
+:::note Hinweis
+
+Diese Funktion kann nur von dem Moderator verwendet werden
+
+:::
 
 Um ein öffentlich verfügbares Video zu zeigen, benötigen Sie den Link zu dem Video.
 Aktuell werden folgende Links unterstützt:
@@ -288,55 +350,112 @@ Wenn Sie in einem anderen Chat eine neue Nachricht erhalten haben, wird das übe
 ![Neue Nachricht im privaten Chat](./assets/message_private_chat.gif)
 ### Umfragen
 
-:::note Unvollständig
+:::note Hinweis
 
-Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+Diese Funktion kann nur von dem Moderator verwendet werden
 
 :::
+
+Umfragen sind eine gute Möglichkeit mit dem Publikum zu interagieren und dieses zu aktivieren.
+
+Um eine neue Umfrage zu starten, klicken Sie auf das Plus-Symbol und anschließend auf "Umfrage starten".
+
+Sie können nun die Frage oben in das Feld eingeben und ein paar Voreinstellungen für die Antwortmöglichkeiten auswählen.
+Möchten Sie lieber keine Antwortmöglichkeiten vorgeben, wählen Sie "Teilnehmerantwort" aus, sodass die Teilnehmer eine Antwort eintippen müssen.
+Wenn Sie eine der Voreinstellungen ausgewählt haben, können Sie die Antwortmöglichkeiten auch verändern und weitere Optionen hinzufügen.
+
+![Umfragen](./assets/vote.gif)
+
+### Anonyme Umfrage
+Standardmäßig können Sie die Antworten den Teilnehmer zuordnen, um so bspw. individuell auf die Teilnehmer einzugehen und diese weiter zu fördern.
+Möchten Sie dies jedoch nicht oder beeinflusst das die Teilnahme oder das Abstimmungsverhalten, können Sie die Umfrage über den Schalter "Anonyme Umfrage" auch so durchführen, dass Sie die Namen nicht angezeigt bekommen.
+Wenn die Umfrage anonym durchgeführt wird, bekommen die Teilnehmer das durch eine Textmeldung angezeigt.
+
+:::caution Achtung
+
+Das System erlaubt zurzeit keine echten anonymen Umfragen. Serverseitig können mit technischem Aufwand die Teilnehmer und die Antworten verknüpft werden.
+Über die Benutzeroberfläche haben die Moderatoren und Präsentatoren jedoch **nicht** die Möglichkeit die Namen einer anonymen Umfrage zu rekonstruieren.
+
+**Der Einsatz bei Wahlen (Schutz des Wahlgeheimnisses) ist daher nicht zulässig.**
+
+:::
+
 
 ### Zufallsgenerator
 
+:::note Hinweis
 
-:::note Unvollständig
-
-Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+Diese Funktion kann nur von dem Moderator verwendet werden
 
 :::
+
+Zur Vorstellung von Ergebnissen nach einer Arbeitsphase oder zur aktivierung der Teilnehmer, können Sie einen Teilnehmer zufällig auswählen lassen.
+Der Prozess ist dabei für alle sichtbar und nachvollziehbar.
+
+Um einen zufälligen Teilnehmer auszuwählen, klicken Sie auf das Plus-Symbol und anschließend auf "Zufälligen Teilnehmer auswählen".
+
+:::info
+
+Es werden nur Teilnehmer und Gäste in der Auswahl berücksichtigt (keine Moderatoren).
+
+:::
+
+![Zufallteilnehmer](./assets/random_user.gif)
 
 ### Emojis
 
-Sie können mit Emojis auf Ereignisse im Raum reagieren.
-Dafür klicken Sie auf sich selbst links in der Teilnehmerliste und wählen Sie "Status setzen" aus.
+Mit Emojis können Sie auf Ereignisse im Raum reagieren.
 
-![Status setzen](./assets/emoji_set.png)
+Dafür klicken Sie auf Ihren Namen links in der Teilnehmerliste und wählen Sie "Status setzen" aus.
+Anschließend können Sie einen der verfügbaren Emojis auswählen.
 
-:::tip Shortcut Tipp
-  Teilnehmerliste kann auch mit <kbd>Alt</kbd> + <kbd>U</kbd>  geöffnet oder geschlossen werden.
-:::
+Um das Emoji wieder zu entfernen, klicken Sie erneut auf Ihren Namen und wählen "Status zurücksetzen" aus.
 
-Dann können Sie eine der verfügbaren Emojis auswählen.
-
-![Emoji auswählen](./assets/emoji_choose.png)
+![Status setzen](./assets/emoji.gif)
 
 ### Hand heben
+
+Sie können in der Videokonferenz ihr Hand heben, um bspw. eine Frage zu stellen. Klicken Sie dafür unten rechts in der Ecke auf den Button mit dem Hand-Symbol.
+Um Ihre Hand wieder zu senken, klicken Sie erneut auf den Button. Ist der Button grün, haben Sie Ihre Hand aktuell gehoben.
+
+![Hand heben](./assets/raise_hand.gif)
+
+Der Präsentator und die Moderatoren bekommen oben rechts angezeigt, welche Personen Ihre Hand gehoben haben.
+Durch Klicken auf die Icons der Teilnehmer, können die Hände einzelner Teilnehmer gesenkt werden.
+Alternativ können über den Button "Hände senken" auch alle Hände gesenkt werden.
+
+![Hände senken](./assets/lower_hands.gif)
+
+
+### Geteilte Notizen
+
+Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen.
+Um diese zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhalb der Teilnehmerliste.
+
+Editieren mehrere Teilnehmer gleichzeitig die Notizen, werden Ihnen die Namen in der jeweiligen Zeile angezeigt.
+
+![Geteilte Notizen](./assets/shared_notes.gif)
+
+
+:::tip Tipp
+Sie können die Bearbeitung der geteilten Notizen durch die Teilnehmer einschränken.
+[Mehr dazu](#teilnehmerrechte-einschränken)
+
+:::
+
+
+Die Notizen können Sie jederzeit herunterladen. Klicken Sie dafür auf das "Download"-Symbol rechts oben im Fenster "Geteilte Notizen".
+Anschließend können Sie das gewünschte Format auswählen.
+
+![Geteilte herunterladen](./assets/shared_notes_choose_format.png)
+
+## Warteraum
 
 :::note Unvollständig
 
 Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
 
 :::
-
-### Geteilte Notizen
-
-Geteilte Notizen können verwendet werden, um gemeinsam Notizen für die Besprechung zu erstellen. Um die zu öffnen, klicken Sie auf "Geteilte Notizen" links oberhalb der Teilnehmerliste.
-
-![Geteilte Notizen](./assets/shared_notes.png)
-
-
-Diese Notizen können Sie dann herunterladen. Klicken Sie dafür auf "Download"-Icon rechts oben im Fenster "Geteilte Notizen".
-Anschließend können Sie das gewünschte Format auswählen.
-
-![Geteilte herunterladen](./assets/shared_notes_choose_format.png)
 
 ## Gruppenräume
 
