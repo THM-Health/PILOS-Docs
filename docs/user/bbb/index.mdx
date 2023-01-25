@@ -69,7 +69,71 @@ Der angezeigte Name ist nicht durch die Verwaltungslösung PILOS verifiziert.
 
 :::
 
+## Nutzer verwalten
+
+### Teilnehmerliste
+
+In der Teilnehmerliste werden alle Nutzer angezeigt, die aktuell an der Videokonferenz teilnehmen.
+
+
+Die Form der Icons und Symbole hat dabei eine Bedeutung für die Rolle und den Audiostatus.
+
+<img src={require('./assets/list.png').default} alt="Teilnehmerliste" width="250"/>
+
+:::tip Shortcut Tipp
+Teilnehmerliste kann mit <kbd>Alt</kbd> + <kbd>U</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>U</kbd> (Mac) geöffnet oder geschlossen werden.
+:::
+
+:::tip Sichtbarkeit der Teilnehmerliste ändern
+
+Standardmäßig sehen alle Teilnehmer die vollständige Teilnehmerliste. Über die Einschränkung der Teilnehmerrechte kann dies gepasst werden.
+[Mehr erfahren](#teilnehmerrechte-einschränken)
+
+:::
+
+#### Rolle
+- **Moderator**: Eckiges Icons (1)
+- **Präsentator**: Whiteboard-Icon oben links (1)
+- **Teilnehmer**: Rundes Icons (2,3,4)
+- **Gast**: Unterhalb des Namens wird "Gast" angezeigt
+
+:::info Bedeutung der Rollen
+
+[Mehr erfahren](#rollen)
+
+:::
+
+#### Audiostatus
+- **Mit Mikrofon**: Grünes Mikrofon-Icon unten rechts (1)
+- **Mit stumm geschaltetem Mikrofon**: Rotes durchgestrichenes Mikrofon-Icon unten rechts (3)
+- **Ohne Mikrofon**: Grünes Kopfhörer-Icon unten rechts (2)
+- **Ohne Audioverbindung**: Leeres Icon unten rechts (4)
+
+#### Teilnehmerliste herunterladen
+
+:::note Hinweis
+
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
+
+Um die Anwesenheit zu protokollieren, kann jederzeit eine Liste mit den Namen der aktuell anwesenden Teilnehmer heruntergeladen werden.
+
+![Anwesenheitsliste](./assets/save_user_list.png)
+
+:::tip Anwesenheit während der gesamten Videokonferenz
+
+Zur Protokollierung der Anwesenheit während der gesamten Videokonferenz kann die Protokollierung der Anwesenheit in PILOS aktiviert werden.
+[Mehr erfahren](../room/settings.mdx#anwesenheit-der-teilnehmer-protokollieren-4)
+:::
+
 ### Rolle ändern
+
+:::note Hinweis
+
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
 
 #### Präsentator
 
@@ -113,10 +177,17 @@ Die Rolle des Moderators sollte bedacht vergeben werden, da jeder Moderator die 
 
 ### Teilnehmerrechte einschränken
 
+:::note Hinweis
+
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
+
 Die Berechtigungen von Teilnehmern und Gästen können von Moderatoren eingeschränkt werden.
 Klicken Sie dafür in der Teilnehmerliste auf das Zahnrad-Symbol und anschließend auf "Teilnehmerrechte einschränken".
 
 In dem Dialogfenster können Sie dann unterschiedliche Programmfunktionen für Teilnehmer einschränken. Mit einem Klick auf "Anwenden" werden diese Regeln aktiv.
+Um die Regeln wieder zu deaktivieren, öffnen Sie erneut das Dialogfenster und geben alle Funktionen frei.
 
 :::tip
 
@@ -124,30 +195,43 @@ Sie können diese Einschränkungen zum Teil auch schon im vorhinein in PILOS kon
 
 :::
 
+![Einschränken](./assets/restrict.gif)
 
-## Teilnehmerliste
+#### Ausnahme für einzelne Teilnehmer
 
-In der Teilnehmerliste werden alle Nutzer angezeigt, die aktuell an der Videokonferenz teilnehmen.
+Sie können auch einzelne Nutzer freischalten, damit die Einschränkungen für diese nicht gelten.
 
+Klicken Sie dafür in der Teilnehmerliste auf den Namen des Teilnehmers und wählen "Freigeben" aus.
 
-Die Form der Icons und Symbole hat dabei eine Bedeutung für die Rolle und den Audiostatus.
+Damit die Einschränkungen für den Nutzer wieder gelten, klicken Sie erneut auf den Namen und wählen "Sperren" aus.
 
-<img src={require('./assets/list.png').default} alt="Teilnehmerliste" width="250"/>
+![Freigaben und Sperren](./assets/lock_unlock.gif)
 
-### Rolle
-- **Moderator**: Eckiges Icons (1)
-- **Präsentator**: Whiteboard-Icon oben links (1)
-- **Teilnehmer**: Rundes Icons (2,3,4)
-- **Gast**: Unterhalb des Namens wird "Gast" angezeigt
+### Nutzer entfernen
 
-### Audiostatus
-- **Mit Mikrofon**: Grünes Mikrofon-Icon unten rechts (1)
-- **Mit stumm geschaltetem Mikrofon**: Rotes durchgestrichenes Mikrofon-Icon unten rechts (3)
-- **Ohne Mikrofon**: Grünes Kopfhörer-Icon unten rechts (2)
-- **Ohne Audioverbindung**: Leeres Icon unten rechts (4)
+:::note Hinweis
 
-:::tip Shortcut Tipp
-Teilnehmerliste kann mit <kbd>Alt</kbd> + <kbd>U</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>U</kbd> (Mac) geöffnet oder geschlossen werden.
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
+
+Um Teilnehmer aus der Videokonferenz zu entfernen, klicken Sie in der Teilnehmerliste auf den Namen des Nutzers und wählen "Teilnehmer entfernen" aus.
+
+In dem Dialogfenster können Sie den Nutzer für die restliche Videokonferenz sperren, sodass dieser nicht mehr teilnehmen kann.
+
+:::warning Achtung
+- Die Sperrung kann für die Dauer der Videokonferenz **nicht widerrufen** werden.
+- Die Sperrung funktioniert nur für angemeldete Nutzer zuverlässig, Gäste können die Sperrung umgehen.
+:::
+
+![Nutzer entfernen](./assets/remove_user.gif)
+
+### Warteraum
+
+:::note Unvollständig
+
+Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
+
 :::
 
 
@@ -174,6 +258,56 @@ Ist das Symbol grün, ist das Mikrofon aktiv, ist es grau und durchgestrichen is
 Sie können das Mikrofon mit <kbd>Alt</kbd> + <kbd>M</kbd> (Windows) / <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>M</kbd> (Mac) an- und ausschalten.
 
 :::
+
+
+#### Einzelne Nutzer stummschalten
+
+:::note Hinweis
+
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
+
+Moderatoren können einzelne Nutzer stummschalten.
+
+Klicken Sie dafür in der Teilnehmerliste auf den Namen des Teilnehmers und wählen "Teilnehmer stummschalten" aus.
+
+Die Nutzer können von dem Moderator nicht wieder freigeschaltet werden, dies muss durch den Nutzer selber erfolgen.
+Die Stummschaltung wird nicht erzwungen, die Nutzer können sich jederzeit selber wieder freischalten.
+
+:::tip Stummschaltung erzwingen
+
+Damit sich die Teilnehmer nicht selber freischalten können, lässt sich die Mikrofonnutzung für alle Teilnehmer einschränken.
+[Mehr zur Einschränkung von Teilnehmerrechten erfahren](#teilnehmerrechte-einschränken)
+
+:::
+
+![Andere Stummschalten](./assets/mute_user.png)
+
+
+#### Alle Nutzer stummschalten
+
+:::note Hinweis
+
+Diese Funktion kann nur von den Moderatoren verwendet werden
+
+:::
+
+Alternativ zur Stummschaltung einzelner Teilnehmer, können Moderatoren auch alle Teilnehmer oder alle Teilnehmer mit Ausnahme des Präsentators stummschalten.
+
+Klicken Sie dafür auf das Zahnrad-Symbol in der Teilnehmerliste und wählen "Alle Teilnehmer stummschalten" oder "Alle Teilnehmer außer den Präsentator stummschalten" aus.
+
+Die Nutzer können von dem Moderator nicht wieder freigeschaltet werden, dies muss durch den Nutzer selber erfolgen.
+Die Stummschaltung wird nicht erzwungen, die Nutzer können sich jederzeit selber wieder freischalten.
+
+:::tip Stummschaltung erzwingen
+
+Damit sich die Teilnehmer nicht selber freischalten können, lässt sich die Mikrofonnutzung für alle Teilnehmer einschränken.
+[Mehr zur Einschränkung von Teilnehmerrechten erfahren](#teilnehmerrechte-einschränken)
+
+:::
+
+![Alle Stummschalten](./assets/mute_all.gif)
 
 
 #### Audiogeräte wechseln
@@ -207,8 +341,10 @@ Es öffnet sich ein neues Fenster, in dem Sie die gewünschte Kamera und die Qua
 
 ![weitere Webcam](./assets/single_video.gif)
 
-:::tip
+:::tip Geringe Bandbreite
+
 Wenn Sie nur über eine geringe Bandbreite verfügen, wählen Sie lieber eine geringere Qualität, da es sonst zu Problemen mit der Audio- oder Videoübertragung kommen kann.
+
 :::
 
 #### Virtueller Hintergrund
@@ -234,7 +370,7 @@ Um die Kamera wieder zu beenden, klicken Sie erneut auf den Pfeil neben dem Vide
 
 :::note Hinweis
 
-Diese Funktion kann nur von dem Moderator verwendet werden
+Diese Funktion kann nur von dem Präsentator verwendet werden
 
 :::
 
@@ -280,7 +416,7 @@ Klicken Sie dafür aus das Plus-Symbol unten links und wählen die gewünschte P
 
 :::note Hinweis
 
-Diese Funktion kann nur von dem Moderator verwendet werden
+Diese Funktion kann nur von dem Präsentator verwendet werden
 
 :::
 
@@ -299,7 +435,7 @@ Das Teilen des Bildschirms ist auf mobilen Geräten (iOS und Android) aufgrund v
 
 :::note Hinweis
 
-Diese Funktion kann nur von dem Moderator verwendet werden
+Diese Funktion kann nur von dem Präsentator verwendet werden
 
 :::
 
@@ -352,7 +488,7 @@ Wenn Sie in einem anderen Chat eine neue Nachricht erhalten haben, wird das übe
 
 :::note Hinweis
 
-Diese Funktion kann nur von dem Moderator verwendet werden
+Diese Funktion kann nur von dem Präsentator verwendet werden
 
 :::
 
@@ -385,7 +521,7 @@ Das System erlaubt zurzeit keine echten anonymen Umfragen. Serverseitig können 
 
 :::note Hinweis
 
-Diese Funktion kann nur von dem Moderator verwendet werden
+Diese Funktion kann nur von dem Präsentator verwendet werden
 
 :::
 
@@ -438,6 +574,7 @@ Editieren mehrere Teilnehmer gleichzeitig die Notizen, werden Ihnen die Namen in
 
 
 :::tip Tipp
+
 Sie können die Bearbeitung der geteilten Notizen durch die Teilnehmer einschränken.
 [Mehr dazu](#teilnehmerrechte-einschränken)
 
@@ -449,15 +586,9 @@ Anschließend können Sie das gewünschte Format auswählen.
 
 ![Geteilte herunterladen](./assets/shared_notes_choose_format.png)
 
-## Warteraum
 
-:::note Unvollständig
 
-Die Dokumentation ist hier noch unvollständig und wird noch ergänzt
-
-:::
-
-## Gruppenräume
+### Gruppenräume
 
 :::note Unvollständig
 
