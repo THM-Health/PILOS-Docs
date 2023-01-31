@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+permissions:
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
