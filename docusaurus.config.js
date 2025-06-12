@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PILOS Hilfe',
-  tagline: 'Online Hilfe für PILOS',
+  title: 'PILOS Infos',
+  tagline: 'Online Informationen über PILOS',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/PILOS-Docs/',
   onBrokenLinks: 'throw',
@@ -63,9 +63,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PILOS Hilfe',
+        title: 'PILOS Infos',
         logo: {
-          alt: 'Hilfe Logo',
+          alt: 'Infos Logo',
           src: 'img/logo.svg',
           srcDark: 'img/logo-dark.svg'
         },
@@ -88,7 +88,7 @@ const config = {
           {to: '/blog', label: 'Wartungsmeldungen', position: 'left'},
           {
             href: 'https://pilos.thm.de/',
-            label: 'PILOS',
+            label: 'Weiter zu PILOS',
             position: 'right',
           },
           /*
